@@ -1,0 +1,181 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ListenAndWrite.SiteMaster" %>
+
+<%@ Register Assembly="System.Web.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
+
+<%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Listen And Write</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <%--<link href="Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />--%>
+    <link href="Content/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- js -->
+    <%--<link rel="stylesheet" href="Content/flexslider.css" type="text/css" media="screen" />--%>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <!-- //js -->
+    <link href='//fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Peralta' rel='stylesheet' type='text/css'>
+
+    <script src="Scripts/MyScript/CompactString.js"></script>
+    <script src="Scripts/MyScript/TrackAction.js"></script>
+    <script src="Scripts/MyScript/ControlElement.js"></script>
+    <script src="Scripts/MyScript/LessonAction.js"></script>
+    <script src="Scripts/MyScript/ProgressBar.js"></script>
+    <script src="Scripts/MyScript/ChooseDiv.js"></script>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--<asp:ScriptReference Path="~/Scripts/MyScript/TrackAction.js" />
+                <asp:ScriptReference Path="~/Scripts/MyScript/LessonAction.js" />
+                <asp:ScriptReference Path="~/Scripts/MyScript/FireEventElement.js" />--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="body-content">
+            <div class="container">
+                <div class="body-content1" style="padding-bottom: 0.5em">
+
+                    <%--header--%>
+                    <div class="logo-search">
+                        <div class="logo">
+                            <h1>
+                                <a href="Default.aspx">Listen<span class="color">And</span><span class="color1"></span><span class="color2">Write</span>
+                                    <i>Best for practice English</i>
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="search">
+                            <asp:TextBox ID="_txtSearchBox" runat="server" Text="Search Here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Here...';}"></asp:TextBox>
+                            <asp:Button ID="_btnSearchBox" runat="server" Text="🔍" OnClick="_btnSearchBox_Click" Style="padding: 6px 0" />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <%--header--%>
+
+                    <%--nav--%>
+                    <div class="navigation">
+                        <div class="topnav">
+                            <a href="Default.aspx">Home</a>
+                            <a href="#">Levels</a>
+                            <a href="#">Youtube</a>
+                            <a href="#">LevelTest</a>
+                            <a href="#">Number</a>
+                            <a href="#">Category</a>
+                            <a href="#">Channel</a>
+                        </div>
+                    </div>
+                    <%--nav--%>
+
+                    <%--Main content--%>
+                    <div class="single" style="margin-top: 1em">
+                        <div class="col-md-8 single-left">
+                            <div class="single-left1">
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="col-md-4 event-right">
+                            <div class="event-right1">
+                                <div class="categories">
+
+                                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                                        <AnonymousTemplate>
+                                            <ul>
+                                                <li><a runat="server" href="~/Account/Register">Register</a></li>
+                                                <li><a runat="server" href="~/Account/Login">Log in</a></li>
+                                            </ul>
+                                        </AnonymousTemplate>
+                                        <LoggedInTemplate>
+                                            <asp:FormView ID="_ViewUserInfo" runat="server" ItemType="ListenAndWrite.ModelIdentify.ApplicationUser" SelectMethod="_ViewUserInfo_GetItem">
+                                                <ItemTemplate>
+                                                    <h3>Your information:</h3>
+
+                                                    <ul>
+                                                        <li><a runat="server" href="Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                                                        <li>Listening Level: <%#: Item.ListeningLevel %>
+                                                        </li>
+                                                        <li>Point: <%#: String.Format("{0:0.00}", Item.Point) %>
+                                                        </li>
+                                                        <li style="text-align: right">>>><asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                                        </li>
+                                                    </ul>
+                                                </ItemTemplate>
+                                            </asp:FormView>
+                                        </LoggedInTemplate>
+                                    </asp:LoginView>
+                                </div>
+
+                                <%--Quick Access--%>
+                                <div class="tags tags1">
+                                    <h3>Quick suggest:</h3>
+                                    <ul>
+                                        <li><a href="Default.aspx?Access=QuickChoose">Quick choose</a></li>
+                                        <li><a href="Default.aspx?Access=PopularAudio">Popular audios</a></li>
+                                        <li><a href="Default.aspx?Access=Newest">Newest</a></li>
+                                        <li><a href="Default.aspx?Access=AudioOfWeek">Audio of week</a></li>
+                                        <li><a href="#">Top channel</a></li>
+                                    </ul>
+                                </div>
+                                <%--Quick Access--%>
+
+                                <div class="tags tags1">
+                                    <h3>Popular Tags:</h3>
+                                    <ul>
+                                        <asp:ListView ID="_ViewTags" runat="server" ItemType="ListenAndWrite.ModelIdentify.Category" SelectMethod="_ViewTags_GetData">
+                                            <ItemTemplate>
+                                                <li>
+                                                    <a href="Default.aspx?CategoryID=<%#: Item.CategoryID %>"><%#: Item.CategoryName %></a>
+                                                </li>
+                                            </ItemTemplate>
+                                        </asp:ListView>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <%--Main content--%>
+
+                    <%--Footer--%>
+                    <div class="single" style="min-height: 0; padding-bottom: 0.5em">
+                        <hr>
+                        Copyright © Listen-and-Write.com
+                    </div>
+                    <%--Footer--%>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

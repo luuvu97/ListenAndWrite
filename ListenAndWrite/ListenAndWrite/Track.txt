@@ -1,0 +1,37 @@
+103
+demo
+0
+Resources/Audio/103_demo_0.mp3
+9.78
+12.66
+going
+good we are wrapping up our look at the
+@@@
+103
+demo
+1
+Resources/Audio/103_demo_1.mp3
+12.66
+19.109
+smart hotels 360 demo app this is our I
+count correctly our fifth episode we had
+@@@
+104
+vuluuvan
+0
+Resources/Audio/104_vuluuvan_0.mp3
+19.109
+23.279
+an overview then we did a deep dive into
+some of the code the website the mobile
+apps the back-end services and what we
+@@@
+104
+vuluuvan
+1
+Resources/Audio/104_vuluuvan_1.mp3
+26.13
+30.779
+thought we'd do on this episode is take
+a look at how we can bring mixed reality
+@@@

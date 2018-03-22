@@ -1,0 +1,36 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DemoJScriptUpdate.aspx.cs" Inherits="CharterWeb.DemoJScriptUpdate" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script runat="server">
+    protected void txtDataOnChange(object sender, EventArgs e) {
+        txtLength.Text = txtData.Text.Length.ToString();
+    }
+</script>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Client-side Javascript call after an UpdatePanel asychronous request</title>
+</head>
+<script type="text/javascript">
+function EndRequestHandler(sender, args) {
+   if (args.get_error() == undefined)
+       alert("Your text has: " + document.getElementById("txtLength").value + " character(s)");
+   else
+       alert("There was an error" + args.get_error().message);
+}
+function load() {
+   Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+}
+</script>
+<body onload="load()">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="_scriptManager" runat="server" />
+    <div>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+           <ContentTemplate>
+              Write something: <asp:TextBox ID="txtData" runat="server" AutoPostBack="true" OnTextChanged="txtDataOnChange" /><br />
+              Server says the length is: <asp:TextBox ID="txtLength" runat="server" AutoPostBack="true" />
+           </ContentTemplate>
+        </asp:UpdatePanel>
+    </div>
+    </form>
+</body>
+</html>

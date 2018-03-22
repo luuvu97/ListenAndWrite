@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ListenAndWrite.Models.Category">
+    <Position X="4.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListenAndWrite.Models.ApplicationUser">
+    <Position X="7.25" Y="5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgACAAAgAAAAAAgAAAAAAQAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListenAndWrite.Models.Lession">
+    <Position X="4.25" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAACAAkBFAAAAAAAAAAAAAAAAABAAAAAAAQAAI=</HashCode>
+      <FileName>Models\Lession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListenAndWrite.Models.LessionCategory">
+    <Position X="6.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAABAAAAAAgAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\LessionCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListenAndWrite.Models.ModelsContent">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQSAACAgAAAAAAAAAEgAAEUAAEAAEBABAEAI=</HashCode>
+      <FileName>Models\ModelsContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListenAndWrite.Models.Score">
+    <Position X="4.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAABAAAAAAgAAAAAAIAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Models\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListenAndWrite.Models.Testing">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABAAAAAAgAEAAAAIAAAAAAAAAAAFAAA=</HashCode>
+      <FileName>Models\Testing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.AspNet.Identity.EntityFramework.IdentityUser">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.AspNet.Identity.EntityFramework.IdentityUser&lt;TKey, TLogin, TRole, TClaim&gt;">
+    <Position X="11.25" Y="0.5" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="ListenAndWrite.QuickAccess">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAABAAAAAAAAAAACAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ListenAndWrite.Models.TestType">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TestType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

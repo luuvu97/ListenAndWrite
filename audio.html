@@ -1,0 +1,147 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Listening.aspx.cs" Inherits="ListenAndWrite.Listening" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <% 
+        //if (isCorrect == false) Response.Write("ERROR: CANNOT RETRIEVE THE LESSION INFORMATION");            
+    %>
+
+    <asp:FormView ID="_ViewLessionDetail" runat="server" ItemType="ListenAndWrite.Models.Lession" SelectMethod="GetLession">
+        <EmptyDataTemplate>
+            ERROR: CANNOT RETRIEVE THE LESSION INFORMATION
+        </EmptyDataTemplate>
+        
+        <ItemTemplate>
+            <h1><%#: Item.Title %></h1>
+            Provider: <%#: Item.Provider.UserName %>
+            <br />
+            Script: <%#: Item.ScriptText %>
+
+        </ItemTemplate>
+    </asp:FormView>
+
+    <asp:TextBox ID="txtInput" runat="server" placeholder="Box for input" TextMode="MultiLine" Rows="2" Width="100%"></asp:TextBox>
+                <input type="button" id="btnAudioControl" runat="server" value="Play/Pause" />
+    <asp:Button ID="click" runat="server" OnClick="click_Click" />
+
+    <asp:TextBox ID="txtHiddenInput" placeholder="Box process with javascript" runat="server" AutoPostBack="true" OnTextChanged="txtHiddenInput_TextChanged"></asp:TextBox>
+
+    <asp:UpdatePanel ID="ListeningUpdatePanel" runat="server" UpdateMode="Conditional">
+        <ContentTemplate>
+            <div id="divCurrentCorrect" runat="server" style="border: solid 1px blue; width: 100%; min-height: 5em;">
+            </div>
+            <br />
+            Hidden input:
+            <asp:TextBox ID="txtRespondData" runat="server" placeholder="Box process at server."></asp:TextBox>
+
+            <br />
+            <br />
+
+            <asp:TextBox ID="txtAudioStart" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtAudioEnd" runat="server" AutoPostBack="true"></asp:TextBox>
+            <asp:TextBox ID="txtAudioCurrentTime" Text="3" runat="server"></asp:TextBox>
+            <asp:Button ID="btnFireEvent" runat="server" Text="Button for fire event" OnClick="btnFireEvent_Click" />
+
+            <script>
+                ///<summary>
+                ///  This will fire on initial page load, 
+                ///  and all subsequent partial page updates made 
+                ///  by any update panel on the page
+                ///</summary>
+                function pageLoad() {
+                    var PRENAME = "MainContent_";
+                    var txtAudioEnd = document.getElementById(PRENAME + "txtAudioEnd");
+                    var txtAudioStart = document.getElementById(PRENAME + "txtAudioStart");
+                    txtAudioStart.value = "2";
+                    alert(txtAudioEnd.value);
+                    var audioControl = document.getElementById(PRENAME + "audioControl");
+
+                    audioControl.ontimeupdate = function () {
+                        txtAudioCurrentTime.value = audioControl.currentTime;
+                        if (audioControl.currentTime > txtAudioEnd.value) {
+                            audioControl.currentTime = txtAudioStart.value;
+                        }
+                    }
+                }
+</script>
+
+        </ContentTemplate>
+        <Triggers>
+            <asp:AsyncPostBackTrigger ControlID="txtHiddenInput" EventName="TextChanged" />
+            <asp:AsyncPostBackTrigger ControlID="btnFireEvent" EventName="click" />
+        </Triggers>
+    </asp:UpdatePanel>
+
+    <div>
+        Sử dụng 3 textbox. text box 1 dùng đẻ nhập. bắn event onkeyup (xử lý với javascript) để set text cho textbox 2. Set text cho textbox2 => bắn event ontextchange của asp.net => server xử lý => set text lại cho textbox 3
+        <br />
+        sử dụng setTimeout() javascript để lấy input người dùng sau một thời gian cố định
+        
+        <br />
+    </div>
+        <audio controls autoplay loop id="audioControl" runat="server">
+            <source src="Demo.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
+        <br />
+        <br />
+        
+
+
+    <script type="text/javascript">
+
+        var PRENAME = "MainContent_";
+        var audioControl = document.getElementById(PRENAME + "audioControl");
+        var txtAudioStart = document.getElementById(PRENAME + "txtAudioStart");
+        var txtAudioEnd = document.getElementById(PRENAME + "txtAudioEnd");
+        var txtInput = document.getElementById(PRENAME + "txtInput");
+        var txtHiddenInput = document.getElementById(PRENAME + "txtHiddenInput");
+        var txtRespondData = document.getElementById(PRENAME + "txtRespondData");
+        var txtAudioCurrentTime = document.getElementById(PRENAME + "txtAudioCurrentTime");
+        var btnAudioControl = document.getElementById(PRENAME + "btnAudioControl");
+        var btnFireEvent = document.getElementById(PRENAME + "btnFireEvent");
+
+        txtAudioEnd.onchange = function () {
+            start.value = txtAudioEnd.value;
+            alert(start.value);
+        }
+
+        btnAudioControl.onclick = function () {
+            if (audioControl.paused) {
+                audioControl.play();
+            } else {
+                audioControl.pause();
+            }
+        }
+
+        txtInput.onfocusout = function () {
+            audioControl.pause();
+        }
+
+        txtInput.onkeyup = function () {
+            setTimeout(function () {
+                txtHiddenInput.value = txtInput.value;
+                btnFireEvent.click();
+            }, 1000);
+        };
+
+        audioControl.onloadstart = function () {
+            if(txtAudioCurrentTime.value == ""){
+                audioControl.currentTime = txtAudioStart.value;
+            }
+            else {
+                audioControl.currentTime = txtAudioCurrentTime.value;
+            }
+        }
+
+        audioControl.ontimeupdate = function () {
+            txtAudioCurrentTime.value = audioControl.currentTime;
+            if (audioControl.currentTime > txtAudioEnd.value) {
+                audioControl.currentTime = txtAudioStart.value;
+            }
+        }
+
+     </script>
+    
+
+</asp:Content>

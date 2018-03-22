@@ -1,0 +1,21 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form id="form1">
+    <div>
+        <input type="text" ID="txtInput">
+        <input type="text" id="txtHiddenInput">
+        <input type="text" id="txtData">
+    </div>
+    <script>
+        
+        document.getElementById("txtInput").onkeyup = function(){
+            document.getElementById("txtHiddenInput").value = document.getElementById("txtInput").value;
+        }
+
+    </script>
+    </form>
+</body>
+</html>

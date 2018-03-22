@@ -1,0 +1,69 @@
+Mình cần 1 bạn thu thập file audio và script.
+
+Tất cả các audio lưu trong 1 Folder: "Audio"
+Đồng thời tạo 1 file text "input" theo định dạng:
+
+[Audio]
+[Audio Title]
+[Length]
+@@@
+[Description]
+@@@
+[Script1 Audio Path]
+[Script1 transcript text]
+[Script2 Audio Path] (only file name)
+[Script2 transcript text]
+[Script3 Audio Path]
+[Script3 transcript text]
+
+[Audio]
+[Audio Title]
+......
+
+
+
+
+-----------------------------
+ví dụ: file "input"
+[Audio]
+Spring 1
+2:15
+@@@
+This is sample text
+This is sample text
+@@@
+Spring1_1.mp3
+This is sample script
+Spring1_2.mp3
+This is sample script
+Spring131.mp3
+This is sample script
+
+[Audio]
+Spring 2
+.....
+
+
+----------------------
+Nếu audio có nhiều script
+[Audio]
+Spring 1
+2:15
+@@@
+This is sample text
+This is sample text
+@@@
+Spring1_1.mp3
+This is sample script
+Spring1_2.mp3
+This is sample script
+Spring1_3.mp3
+This is sample script
+Spring1_4.mp3
+This is sample script
+Spring1_5.mp3
+This is sample script
+
+[Audio]
+Spring 2
+.....
