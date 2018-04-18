@@ -45,6 +45,12 @@ namespace ListenAndWrite.Logic
 
         public void UpdateScore(List<Double> point)
         {
+            List<Score> ls = MemberAction.GetScore(this.member.Id, this.lesson.LessonID);
+            if (ls.Count == 0)
+            {
+                ModelControl.IncreaseViewCount(this.lesson.LessonID);
+            }
+
             Score s = MemberAction.GetScore(this.member.Id, this.lesson.LessonID, this.testType);
             if (s == null)
             {
@@ -69,6 +75,7 @@ namespace ListenAndWrite.Logic
                     sc => sc.MemberID == this.member.Id && sc.LessonID == this.lesson.LessonID && sc.TestType == this.testType
                     ).FirstOrDefault();
                 tmp.MaxScore = this.PointToString(point);
+                tmp.NearestDateWithBestScore = DateTime.Today;
                 db.SaveChanges();
             }
         }

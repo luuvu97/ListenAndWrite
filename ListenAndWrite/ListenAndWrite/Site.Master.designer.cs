@@ -13,22 +13,22 @@ namespace ListenAndWrite {
     public partial class SiteMaster {
         
         /// <summary>
-        /// _txtSearchBox control.
+        /// txtSearchBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox _txtSearchBox;
+        protected global::System.Web.UI.WebControls.TextBox txtSearchBox;
         
         /// <summary>
-        /// _btnSearchBox control.
+        /// btnSearchBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button _btnSearchBox;
+        protected global::System.Web.UI.WebControls.Button btnSearchBox;
         
         /// <summary>
         /// MainContent control.

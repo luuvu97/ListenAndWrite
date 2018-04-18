@@ -21,7 +21,7 @@ namespace ListenAndWrite
     public partial class _Default : Page
     {
         public int PAGE_SIZE = 20;
-        public const int MAX_LEVEL = 20;
+        public int MAX_LEVEL = ModelsContent.MAX_LEVEL;
         public const string QUERY_SEARCH_CATEGORY_ID = "CategoryID";
         public const string QUERY_SEARCH_ACCESS = "Access";
         public const string QUERY_SEARCH_TEXT = "Search";

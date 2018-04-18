@@ -17,7 +17,7 @@ ControlElement.prototype.viewText = function(rawScript, markRawScript, rawScript
         if (markRawScript[i] == 0) {
             str += rawScript[i];
         } else if (markRawScript[i] == 1) {
-            str += "<font style='color: yellow'>" + rawScript[i] + "</font>";
+            str += "<font style='color: blue'>" + rawScript[i] + "</font>";
         } else {
             str += "<font style='color: red'>" + rawScript[i] + "</font>";
         }
@@ -25,6 +25,10 @@ ControlElement.prototype.viewText = function(rawScript, markRawScript, rawScript
     }
     this.txtScriptCorrect.innerHTML = str;
     this.txtInput.value = currentWord;
+}
+
+ControlElement.prototype.viewTextNewMode = function (correctText) {
+    this.txtScriptCorrect.innerHTML = correctText;
 }
 
 ControlElement.prototype.emptyViewText = function () {

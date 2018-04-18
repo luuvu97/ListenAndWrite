@@ -19,7 +19,7 @@ namespace ListenAndWrite
         {
             if (Session["lessonID"] != null)
             {
-                this.lessonID = Int16.Parse(Session["lessonID"].ToString());
+                this.lessonID = Int32.Parse(Session["lessonID"].ToString());
                 this.lesson = ModelControl.GetLessionByID(this.lessonID);
                 txtTitle.Text = this.lesson.Title;
                 lblNewLessonID.Text = this.lessonID.ToString();
@@ -48,7 +48,7 @@ namespace ListenAndWrite
                 ViewCount = 0,
                 UploadedTime = DateTime.Now,
                 Length = 0,
-                Level = Int16.Parse(txtLevel.Text),
+                Level = Int32.Parse(txtLevel.Text),
                 Language = "EN",
                 Description = txtDescription.Text,
             };
@@ -105,8 +105,8 @@ namespace ListenAndWrite
                 String[] arr = txtCategory.Value.Split("+".ToCharArray());
                 foreach (String str in arr)
                 {
-                    ModelControl.AddLessonCategory(this.lessonID, Int16.Parse(str));
-                    LogFile.WriteAfterAddLessonCategory(this.lessonID, Int16.Parse(str));
+                    ModelControl.AddLessonCategory(this.lessonID, Int32.Parse(str));
+                    LogFile.WriteAfterAddLessonCategory(this.lessonID, Int32.Parse(str));
                 }
             }
             Response.Redirect(Request.RawUrl);
@@ -128,7 +128,7 @@ namespace ListenAndWrite
 
         protected void btnGetExistLesson_Click(object sender, EventArgs e)
         {
-            this.lessonID = Int16.Parse(lblNewLessonID.Text);
+            this.lessonID = Int32.Parse(lblNewLessonID.Text);
             HttpContext.Current.Session["lessonID"] = this.lessonID;
             Response.Redirect("~/CreateLesson.aspx");
         }

@@ -19,7 +19,7 @@ namespace ListenAndWrite
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            Database.SetInitializer(new ModelIdentify.DatabaseInitializerClass());
+            //Database.SetInitializer(new ModelIdentify.DatabaseInitializerClass());
         }
     }
 }

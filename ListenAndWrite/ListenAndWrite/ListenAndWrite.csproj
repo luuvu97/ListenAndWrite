@@ -185,6 +185,7 @@
     <Content Include="Content\flexslider.css" />
     <Content Include="Content\slideshow.css" />
     <Content Include="Content\style.css" />
+    <Content Include="Content\w3.css" />
     <Content Include="CreateLesson.aspx" />
     <Content Include="DefineCategory.txt" />
     <Content Include="Images\WebComponent\arrow_down.gif" />
@@ -193,11 +194,11 @@
     <Content Include="Scripts\MyScript\CompactString.js" />
     <Content Include="Scripts\MyScript\ControlElement.js" />
     <Content Include="Scripts\MyScript\LessonAction.js" />
+    <Content Include="Scripts\MyScript\MaxSubstring.js" />
     <Content Include="Scripts\MyScript\ProgressBar.js" />
     <Content Include="Scripts\MyScript\SubmitAudio.js" />
     <Content Include="Scripts\MyScript\TrackAction.js" />
     <Content Include="SubmitAudio.aspx" />
-    <Content Include="Test.mp3" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\WebComponent\1.jpg" />
     <Content Include="Images\WebComponent\Search-icon.png" />
@@ -214,7 +215,6 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Demo.mp3" />
     <Content Include="Provider.aspx" />
-    <Content Include="Resources\Audio\Demo.mp3" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -462,6 +462,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Resources\Audio\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Listening.aspx.cs" Inherits="ListenAndWrite.Listening" EnableEventValidation="false" %>
+﻿<%@ Page Title="Listening" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Listening.aspx.cs" Inherits="ListenAndWrite.Listening" EnableEventValidation="false" %>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -32,19 +32,20 @@
         </EmptyDataTemplate>
 
         <ItemTemplate>
-            <h1><%#: Item.Title %></h1>
-            Provider: <%#: Item.Provider.UserName %>
+            <a href="Listening.aspx?LessonID=<%#: Item.LessonID %>"><h1><b><%#: Item.Title %></b></h1></a>
+            <b>Provider:</b> <%#: Item.Provider.UserName %>
             <br />
-            <%#: Item.Tracks.Count %> Part
+            <b><%#: Item.Tracks.Count %> Part</b>
             <br />
-            Description : <%#: Item.Description %>
+            <b>Description :</b> <%#: Item.Description %>
         </ItemTemplate>
     </asp:FormView>
     <input type="button" value="PrevTrack" id="btnPrev" />
     <label id="lblPart">1</label>
     <input type="button" value="NextTrack" id="btnNext" />
-
-    <div id="txtResult" style="width: 100%; background: #808080; min-height: 300px; font-size: 2em"></div>
+    <br />
+    <br />
+    <div id="txtResult" style="width: 100%; background: #e1e1e1; min-height: 200px; font-size: 2em"></div>
     <br />
 
     <asp:UpdatePanel ID="ListeningUpdatePanel" runat="server" UpdateMode="Always" ChildrenAsTriggers="true">
@@ -71,8 +72,9 @@
 
     <input type="button" id="btnAudioControl" value="Pause" />
     <br />
+    <br />
     <div>
-        <asp:TextBox ID="txtInput" runat="server" TextMode="MultiLine" Width="100%" Rows="2" Style="z-index: 1; position: absolute;"></asp:TextBox>
+        <asp:TextBox ID="txtInput" runat="server" TextMode="MultiLine" Width="98%" Rows="4" Style="z-index: 1; position: absolute; font-size: 1.5em; padding: 5px;"></asp:TextBox>
         <div style="position: absolute; left: 50%;">
             <div id="divchooseBtn" style="z-index: 10; position: relative; left: -50%; width: 100%; vertical-align: central; align-items: center">
                 <input type="button" value="Complete Lesson" id="btnComplete" />
@@ -81,8 +83,8 @@
             </div>
         </div>
     </div>
-    <br />
-    <br />
+    <div style="height: 10em; width: 100%;">
+    </div>
     <br />
     <input type="button" id="btnHint" style="background: none; color: green;" value="HINT" />
     <br />
@@ -94,9 +96,10 @@
         Your browser does not support the audio element.
     </audio>
 
+    <br />
 
     <div class="w3-light-grey">
-        <div id="myBar" class="w3-green" style="height: 24px; width: 1%"></div>
+        <div id="myBar" class="w3-green" style="height: 24px; width: 1%; text-align:center"></div>
         <div style="float: right;" id="progressText"></div>
     </div>
     <br>
@@ -107,20 +110,21 @@
         var audioPaths = document.getElementById(PRENAME + "txtAudioPaths").value;
         scripts = scripts.split(";");
         audioPaths = audioPaths.split(";");
+        var testType = document.getElementById(PRENAME + "txtTestType").value;
+        console.log(testType);
 
         var chooseDiv = new ChooseDiv("btnComplete", "btnChooseNext", "btnChooseListenAgain")
         var progressBar = new ProgressBar("myBar", "progressText");
         var controlElement = new ControlElement(PRENAME + "audioControl", PRENAME + "txtInput","txtResult", PRENAME + "txtPoint", PRENAME + "txtCurrentPart", PRENAME + "btnForEventFireUp", "lblPart", chooseDiv, progressBar);
-        var lessonAction = new LessonAction(<%= this.lesson.Level %>, scripts, audioPaths, controlElement);
-
+        var lessonAction = new LessonAction(<%= this.lesson.Level %>, scripts, audioPaths, controlElement, testType);
         chooseDiv.hide();
         progressBar.hide();
 
         document.getElementById(PRENAME + "txtInput").onkeyup = function(){
             setTimeout(function(){
                 lessonAction.processUserInput(document.getElementById(PRENAME + "txtInput").value);
-                document.getElementById("txtHint").innerText = lessonAction.trackAction.script[lessonAction.trackAction.currentIndex];
-            },100)
+                document.getElementById("txtHint").innerText = lessonAction.hint;
+            },50)
         }
 
         document.getElementById("btnPrev").onclick = function(){
@@ -145,7 +149,7 @@
                 showHint = true;
                 document.getElementById("hint").style.display = "Block";
                 document.getElementById("btnHint").value = "Hide hint";
-                document.getElementById("txtHint").innerText = lessonAction.trackAction.script[lessonAction.trackAction.currentIndex];
+                document.getElementById("txtHint").innerText = lessonAction.hint;
             }else{
                 showHint = false;
                 document.getElementById("hint").style.display = "None";

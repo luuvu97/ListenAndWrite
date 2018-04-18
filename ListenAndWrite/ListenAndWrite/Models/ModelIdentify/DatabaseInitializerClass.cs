@@ -7,7 +7,7 @@ using System.IO;
 
 namespace ListenAndWrite.ModelIdentify
 {
-    public class DatabaseInitializerClass : DropCreateDatabaseAlways<ModelsContent>
+    public class DatabaseInitializerClass : DropCreateDatabaseIfModelChanges<ModelsContent>
     {
         protected override void Seed(ModelsContent context)
         {
@@ -15,10 +15,10 @@ namespace ListenAndWrite.ModelIdentify
             context.SaveChanges();
             GenCategories().ForEach(c => context.Categories.Add(c));
             context.SaveChanges();
-            GenLession().ForEach(l => context.Lessons.Add(l));
-            context.SaveChanges();
-            GenLessionCategories().ForEach(lc => context.LessonCateogies.Add(lc));
-            context.SaveChanges();
+            //GenLession().ForEach(l => context.Lessons.Add(l));
+            //context.SaveChanges();
+            //GenLessionCategories().ForEach(lc => context.LessonCateogies.Add(lc));
+            //context.SaveChanges();
             //GenScores().ForEach(s => context.Scores.Add(s));
             //context.SaveChanges();
         }
@@ -48,8 +48,9 @@ namespace ListenAndWrite.ModelIdentify
         public static List<Category> GenCategories()
         {
             List<Category> list = new List<Category>();
-            if(File.Exists(@"C:\Users\luuvanvu\Desktop\DefineCategory.txt")){
-                String[] arr = File.ReadAllLines(@"C:\Users\luuvanvu\Desktop\DefineCategory.txt");
+            if (File.Exists(@"C:\Users\luuvanvu\OneDrive\ListenAndWrite\ListenAndWrite\DefineCategory.txt"))
+            {
+                String[] arr = File.ReadAllLines(@"C:\Users\luuvanvu\OneDrive\ListenAndWrite\ListenAndWrite\DefineCategory.txt");
                 foreach(String str in arr){
                     list.Add(new Category{
                         CategoryName = str,
@@ -68,7 +69,7 @@ namespace ListenAndWrite.ModelIdentify
                     ProviderID = "1",
                     //ProviderName = "ListenAndWrite.com",
                     Title = "Spring " + i,
-                    ViewCount = i,
+                    ViewCount = 0,
                     UploadedTime = DateTime.Now,
                     Length = (i % 4) * 60 + i % 60,
                     Level = i %5 + 1,

@@ -1,8 +1,4 @@
-Information of Technology
-Season
-Sport
 World's Celebrities
-Art and Culture
 Wonders of the World
 Learning English
 Books and Authors
@@ -12,5 +8,11 @@ BBC Learning English
 Learn English | British Council
 Improve Your Skill
 Make Life Easier
-Healthy
-Leisure And Entertainment
+Nature and the Environment
+Science and Technology
+Art and Culture
+Leisure and Entertainment
+School and Family
+People and Work
+Sports and Health
+Travel and Transport

@@ -1,4 +1,5 @@
 ﻿function Transcript(fileContent) {
+    debugger
     this.fileContent = fileContent;
     this.transcripts = new Array();
     this.readData();
@@ -20,7 +21,7 @@ function MyTime(str){
     this.sec = parseInt(arr[2]);
     this.ms = parseInt(arr[3]);
 
-    console.log(arr + "\n" + this.hour + ";" + this.min + ":" + this.sec + ":" + this.ms + "\n");
+    //console.log(arr + "\n" + this.hour + ";" + this.min + ":" + this.sec + ":" + this.ms + "\n");
 }
 
 MyTime.prototype.toDouble = function () {
@@ -29,6 +30,9 @@ MyTime.prototype.toDouble = function () {
 
 Transcript.prototype.readData = function () {
     var arr = this.fileContent.split("\r\n");
+    if (arr[0] == this.fileContent) {
+        arr = this.fileContent.split("\n");
+    }
     var i = 0;
     var myTime, seqNumber, start, end, script;
     while (i < arr.length) {
@@ -50,7 +54,14 @@ Transcript.prototype.readData = function () {
                 script += arr[i++];
             }
         }
-        console.log(seqNumber + "\n" + start + " --> " + end + "\n" + script + "\n");
+        while (i < arr.length) {
+            if (!arr[i] || arr[i].length === 0) {
+                i++;
+            } else {
+                break;
+            }
+        }
+        //console.log(seqNumber + "\n" + start + " --> " + end + "\n" + script + "\n");
         this.transcripts.push(new TranscriptNode(seqNumber, start, end, script));
     }
 }

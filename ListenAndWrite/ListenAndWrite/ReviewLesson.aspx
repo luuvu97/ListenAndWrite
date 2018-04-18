@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ReviewLesson.aspx.cs" Inherits="ListenAndWrite.ReviewLesson" %>
+﻿<%@ Page Title="Review Lesson" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ReviewLesson.aspx.cs" Inherits="ListenAndWrite.ReviewLesson" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <link rel="stylesheet" href="Content/slideshow.css" type="text/css" media="screen" />
@@ -10,7 +10,7 @@
         </EmptyDataTemplate>
 
         <ItemTemplate>
-            <h1><%#: Item.Title %></h1>
+            <a href="Listening.aspx?LessonID=<%#: Item.LessonID %>"><h1><b><%#: Item.Title %></b></h1></a>
             Provider: <%#: Item.Provider.UserName %>
             <br />
             <%#: Item.Tracks.Count %> Part
@@ -58,7 +58,7 @@
         <%-- FULL MODE DETAIL --%>
         <div id="divFullModeDetail">
 
-            <h1 style="text-align: center;">Full Mode</h1>
+            <h1 style="text-align: center; font-weight: bold;">Full Mode</h1>
 
             <asp:ListView ID="_ViewTrackFullMode" runat="server" ItemType="ListenAndWrite.ModelIdentify.TrackNode" SelectMethod="_ViewTrackFullMode_GetData">
                 <EmptyDataTemplate>
@@ -100,7 +100,7 @@
         <%-- NEW MODE DETAIL --%>
         <div id="divNewModeDetail">
 
-            <h1 style="text-align: center;">New Mode</h1>
+            <h1 style="text-align: center; font-weight: bold;">New Mode</h1>
 
             <asp:ListView ID="_ViewTrackNewMode" runat="server" ItemType="ListenAndWrite.ModelIdentify.TrackNode" SelectMethod="_ViewTrackNewMode_GetData">
                 <EmptyDataTemplate>

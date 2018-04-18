@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Provider.aspx.cs" Inherits="ListenAndWrite.Provider" %>
+﻿<%@ Page Title="Provider" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Provider.aspx.cs" Inherits="ListenAndWrite.Provider" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     
@@ -54,7 +54,7 @@
                                         </td>
                                         <td>
                                             <div class="content">
-                                                <a href="Listening.aspx?LessonID=<%#: Item.LessonID %>" class="name"><%#: Item.Title %> - <%# Item.Length / 60 + 1 %>:<%# Item.Length % 60 %></a>
+                                                <a href="Listening.aspx?LessonID=<%#: Item.LessonID %>" class="name"><%#: Item.Title %> - <%# String.Format("{0:00}",Convert.ToInt64(Item.Length) / 60) %>:<%# String.Format("{0:00}",Convert.ToInt64(Item.Length) % 60) %></a>
                                                 <br />
                                                 Provider by: <a href="Provider?Provider=<%#: Item.Provider.UserName %>" class="link"><%#: Item.Provider.UserName %></a>
                                                 <font class="highlight">Level: <%#: Item.Level %>, Views: <%#: Item.ViewCount %></font>

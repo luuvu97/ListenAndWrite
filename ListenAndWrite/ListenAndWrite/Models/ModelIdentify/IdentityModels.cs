@@ -20,6 +20,7 @@ namespace ListenAndWrite.ModelIdentify
     // You can add User data for the user by adding more properties to your User class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
+
         [StringLength(2), DefaultValue("EN") ]
         public string DictationLanguage { get; set; }
 
@@ -53,9 +54,6 @@ namespace ListenAndWrite.ModelIdentify
             : base("ListenAndWrite", throwIfV1Schema: false)
         {
         }
-
-
-
 
         public static ApplicationDbContext Create()
         {

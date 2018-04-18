@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CreateLesson.aspx.cs" Inherits="ListenAndWrite.CreateLesson" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CreateLesson.aspx.cs" Inherits="ListenAndWrite.CreateLesson" Title="Create Lesson" %>
 
 <!DOCTYPE html>
 

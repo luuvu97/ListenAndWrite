@@ -2,25 +2,25 @@ var imported = document.createElement('script');
 imported.src = 'CompactString.js';
 document.head.appendChild(imported);
 
-function TrackAction(rawScript, audioPath, controlElement){
+function TrackAction(rawScript, audioPath, controlElement, testType) {
+    //script be processed in lower case
     this.rawScript = rawScript.split(" ");
     this.cs = new CompactString();
     this.script = this.cs.parseScript(rawScript);
     this.numOfWrong = new Array(this.script.length);
     this.markRawScript = new Array(this.rawScript.length);
-    //this.controlElement = controlElement;
     controlElement.setSourceAudio(audioPath);
     this.currentIndex = 0;
     this.currentWord = ""; //Từ đang cần nhập
     this.correctText = "";  //Tất cả những từ đã nhập đúng
     this.rawScriptIndex = 0;    //Index cho rawScript có thể k giống curentIndex của script do có từ viết tắt
     this.isCompactText = false; //Có phải từ đang xét là từ có khả năng viết tắt hay không
-    //this.isNextWord = false;
     this.isNextTrack = false;
+    this.tetsType = testType;
 
     this.initNewWord();
 
-    for(var i = 0; i < this.numOfWrong.length; i++){
+    for (var i = 0; i < this.numOfWrong.length; i++) {
         this.numOfWrong[i] = 0;
     }
     for (var i = 0; i < this.rawScript.length; i++) {
@@ -39,41 +39,40 @@ TrackAction.prototype.updateMarkRawSrcipt = function () {
     }
 }
 
-
 TrackAction.prototype.initNewWord = function () {
-    if(this.script[this.currentIndex].length == 2 && (this.script[this.currentIndex] != this.rawScript[this.rawScriptIndex])){
+    //[i'm, i am]
+    
+    if (this.script[this.currentIndex].length == 2 && (this.script[this.currentIndex][0] != this.rawScript[this.rawScriptIndex].toLowerCase())) {
         this.isCompactText = true;
-    }else{
+    } else {
         this.isCompactText = false;
     }
 }
 
-TrackAction.prototype.getCorrectText = function(){
+TrackAction.prototype.getCorrectText = function () {
     this.correctText = "";
-    //console.log(this.currentIndex + " - " + this.rawScriptIndex);
-    for(var i = 0; i < this.rawScriptIndex; i++){
+    for (var i = 0; i < this.rawScriptIndex; i++) {
         this.correctText += this.rawScript[i] + " ";
     }
 }
 
-TrackAction.prototype.nextWord = function(){
+TrackAction.prototype.nextWord = function () {
     //this.isNextWord = true;
     // this.correctText += " " + this.currentWord;
     this.currentWord = "";
     this.updateMarkRawSrcipt();
-    //console.log("Next word: " + this.script[this.currentIndex]);
-    if(this.isCompactText == true){
+    if (this.isCompactText == true) {
         this.rawScriptIndex += 2;
         this.currentIndex++;
-    }else{
+    } else {
         this.rawScriptIndex++;
         this.currentIndex++;
     }
-    if(this.currentIndex == this.script.length){
+    if (this.currentIndex == this.script.length) {
         this.isNextTrack = true;
-    }else{
+    } else {
         this.initNewWord();
-    }   
+    }
     this.getCorrectText();
 }
 
@@ -81,25 +80,57 @@ TrackAction.prototype.processUserInput = function (strInp) {
     var correctIndex = -1;
     var tmp;
     var isCorrect;
+    strInp = strInp.toLowerCase();
     var str = strInp.toLowerCase();
-    for(var i = 1; i <= str.length; i++){
-        tmp = str.substring(0, i);
-        isCorrect = false;
-        for(text in this.script[this.currentIndex]){
-            if(this.script[this.currentIndex][text].indexOf(tmp) == 0){
-                correctIndex = i;
-                isCorrect =  true;
+    if (this.tetsType == "FULLMODE") {
+        for (var i = 1; i <= str.length; i++) {
+            tmp = str.substring(0, i);
+            isCorrect = false;
+            for (text in this.script[this.currentIndex]) {
+                if (this.script[this.currentIndex][text].indexOf(tmp) == 0) {
+                    correctIndex = i;
+                    isCorrect = true;
+                }
+            }
+            if (isCorrect == false) {
+                this.numOfWrong[this.currentIndex]++;
+                break;
             }
         }
-        if(isCorrect == false){
-            this.numOfWrong[this.currentIndex]++;
+        this.currentWord = strInp.substring(0, correctIndex);
+        if (this.script[this.currentIndex].includes(str.substring(0, this.correctIndex))) {
+            this.nextWord();
+        }
+    } else {
+        //this.currentWord = strInp;
+        strInp = this.standardized(strInp);
+        console.log(strInp);
+        var maxSubstring = new MaxSubString(this.rawScript, this.script);
+        this.correctText = maxSubstring.getMaxSubString(strInp);
+        if (maxSubstring.numOfCorrectText == this.script.length) {
+            this.isNextTrack = true;
+        }
+    }
+
+}
+
+TrackAction.prototype.standardized = function (strInp) {
+    for (var i = 0; i < strInp.length; i++) {
+        var ch = strInp.charAt(i);
+        if (!((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') || ch == ' ' || ch == '\'')) {
+            strInp = strInp.replace(ch, ' ');
+        }
+    }
+    strInp = strInp.trim();
+    while (true) {
+        var prev = strInp;
+        strInp = strInp.replace("  ", " ");
+        if (prev == strInp) {
             break;
         }
     }
-    this.currentWord = strInp.substring(0, correctIndex);
-    //console.log(this.currentWord);
-    if(this.script[this.currentIndex].includes(str.substring(0, this.correctIndex))){
-        this.nextWord();
-    }
-    //this.controlElement.processInput(this.currentWord);
+
+    strInp = this.cs.compactString(strInp);
+    strInp = strInp.split(" ");
+    return strInp;
 }

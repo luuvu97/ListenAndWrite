@@ -27,7 +27,7 @@ CompactString.prototype.parseWord = function(inp){
     ret.push(inp);
     inp = inp.replace("'", "_");
     if(this.hasOwnProperty(inp)){
-        console.log("contain");
+        //console.log("contain");
         ret.push(this[inp].replace("_", "'"));
     }
     return ret;
@@ -47,7 +47,7 @@ CompactString.prototype.compactString = function(inp){
             break;
         }
     }
-    console.log("Compact string: inp -- out: " + script);
+    //console.log("Compact string: inp -- out: " + script);
     return script;
 }
 

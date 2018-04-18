@@ -11,6 +11,7 @@ namespace ListenAndWrite.ModelIdentify
 {
     public class ModelsContent : DbContext
     {
+        public static int MAX_LEVEL = 10;
         public ModelsContent() : base("ListenAndWrite") { }
 
         public static string PRE_AUDIO_PATH = "Resources/Audio/";

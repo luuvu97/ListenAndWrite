@@ -80,15 +80,15 @@ namespace ListenAndWrite
             Context.GetOwinContext().Authentication.SignOut();
         }
 
-        protected void _btnSearchBox_Click(object sender, EventArgs e)
+        protected void btnSearchBox_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Default.aspx?Search=" + this.txtSearchBox.Text);
         }
 
         public IQueryable<Category> _ViewTags_GetData()
         {
             var _db = new ModelsContent();
-            return _db.Categories.OrderBy(c => c.LessonCategories.Count).Take(20);
+            return _db.Categories.OrderByDescending(c => c.LessonCategories.Count).Take(20);
         }
 
         // The id parameter should match the DataKeyNames value set on the control

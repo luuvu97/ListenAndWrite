@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using  ListenAndWrite.ModelIdentify;
 using ListenAndWrite.Logic;
+using System.Web.UI.DataVisualization.Charting;
 
 namespace ListenAndWrite
 {
@@ -22,8 +23,8 @@ namespace ListenAndWrite
         protected void Page_Load(object sender, EventArgs e)
         {
             this.GetData();
-            ChartAction.showChart(MemberAction.GetLastDatePoint(this.member.Id, TestType.FullMode), Chart1);
-            ChartAction.showChart(MemberAction.GetLastDatePoint(this.member.Id, TestType.NewMode), Chart2);
+            ChartAction.showChart(MemberAction.GetLastDatePoint(this.member.Id, TestType.FullMode, 3), Chart1);
+            ChartAction.showChart(MemberAction.GetLastDatePoint(this.member.Id, TestType.NewMode, 3), Chart2);
         }
 
         public void GetData()
@@ -50,13 +51,15 @@ namespace ListenAndWrite
             this.scores = MemberAction.GetScore(this.member.Id, this.lesson.LessonID);
 
             //for TrackNode
-            Double maxPoint = 100 + (this.lesson.Level - 1) * 10;
-            Double maxTrackPoint = maxPoint / this.lesson.Tracks.Count;
+            Double maxPointFullMode = 100 + (this.lesson.Level - 1) * 10;
+            Double maxTrackPointFullMode = maxPointFullMode / this.lesson.Tracks.Count;
+            Double maxPointNewMode = 200 + (this.lesson.Level - 1) * 10;
+            Double maxTrackPointNewMode = maxPointNewMode / this.lesson.Tracks.Count;
             //full mode
             Score s = this.GetScoreTestType(TestType.FullMode);
             if (s != null)
             {
-                this.pointTrackFullMode = ModelControl.GenTrackNode(TestAction.parsePoint(s.MaxScore), maxTrackPoint);
+                this.pointTrackFullMode = ModelControl.GenTrackNode(TestAction.parsePoint(s.MaxScore), maxTrackPointFullMode);
             }
             else
             {
@@ -66,14 +69,14 @@ namespace ListenAndWrite
             s = this.GetScoreTestType(TestType.NewMode);
             if (s != null)
             {
-                this.pointTrackNewMode = ModelControl.GenTrackNode(TestAction.parsePoint(s.MaxScore), maxTrackPoint);
+                this.pointTrackNewMode = ModelControl.GenTrackNode(TestAction.parsePoint(s.MaxScore), maxTrackPointNewMode);
             }
             else
             {
                 this.pointTrackNewMode = null;
             }
             //for ScoreNode
-            this.scoreNode = ModelControl.GenScoreNode(this.scores, maxPoint);
+            this.scoreNode = ModelControl.GenScoreNode(this.scores, maxPointFullMode, maxPointNewMode);
         }
 
         public Score GetScoreTestType(TestType type)

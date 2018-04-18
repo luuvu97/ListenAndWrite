@@ -24,7 +24,9 @@ namespace ListenAndWrite.ModelIdentify
 
         public long DoubleToMilliseconds(Double inp)
         {
-            return Convert.ToInt64(inp * 1000);
+            var tmp = Math.Round(inp * 1000);
+            return Convert.ToInt64(tmp);
+            
         }
 
         public static String RemoveAllWhiteSpace(String inp)

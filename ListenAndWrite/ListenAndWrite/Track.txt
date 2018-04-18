@@ -1,37 +1,3256 @@
-103
-demo
-0
-Resources/Audio/103_demo_0.mp3
-9.78
-12.66
-going
-good we are wrapping up our look at the
-@@@
-103
-demo
 1
-Resources/Audio/103_demo_1.mp3
-12.66
-19.109
-smart hotels 360 demo app this is our I
-count correctly our fifth episode we had
-@@@
-104
-vuluuvan
+A Picnic by the River
 0
-Resources/Audio/104_vuluuvan_0.mp3
-19.109
-23.279
-an overview then we did a deep dive into
-some of the code the website the mobile
-apps the back-end services and what we
+Resources/Audio/1_APicnicbytheRiver_0.mp3
+31.5
+39.2
+This is a good spot Let s stop and have our picnic next to the river
 @@@
-104
-vuluuvan
 1
-Resources/Audio/104_vuluuvan_1.mp3
-26.13
-30.779
-thought we'd do on this episode is take
-a look at how we can bring mixed reality
+A Picnic by the River
+0
+Resources/Audio/1_APicnicbytheRiver_0.mp3
+0.3
+5.19
+hello and welcome to this learn English elementary recording brought to you by
+@@@
+1
+A Picnic by the River
+0
+Resources/Audio/1_APicnicbytheRiver_0.mp3
+0.3
+5.19
+hello and welcome to this learn English elementary recording brought to you by
+@@@
+1
+A Picnic by the River
+1
+Resources/Audio/1_APicnicbytheRiver_1.mp3
+0.3
+6.19
+hello and welcome to this learn English elementary recording brought to you by
+@@@
+1
+A Picnic by the River
+0
+Resources/Audio/1_APicnicbytheRiver_0.mp3
+22.97
+29.519
+hello and welcome to learn English elementary podcast number one my name is
+@@@
+4
+asdfasdf
+0
+Resources/Audio/4_asdfasdf_0.mp3
+31
+35.8
+listening practice through dictation one copyright compass publishing all
+@@@
+4
+asdfasdf
+1
+Resources/Audio/4_asdfasdf_1.mp3
+31
+36
+listening practice through dictation one copyright compass publishing all
+@@@
+1
+A Picnic by the River
+0
+Resources/Audio/1_APicnicbytheRiver_0.mp3
+31.5
+36.2
+This is a good spot Let s stop and have our picnic next to the river
+@@@
+1
+A Picnic by the River
+1
+Resources/Audio/1_APicnicbytheRiver_1.mp3
+36.4
+41
+Good idea Walking always makes me hungry I m ready for lunch
+@@@
+1
+A Picnic by the River
+2
+Resources/Audio/1_APicnicbytheRiver_2.mp3
+41
+43.5
+We can sit here on the grass
+@@@
+1
+A Picnic by the River
+2
+Resources/Audio/1_APicnicbytheRiver_2.mp3
+41.1
+43.1
+We can sit here on the grass
+@@@
+1
+A Picnic by the River
+2
+Resources/Audio/1_APicnicbytheRiver_2.mp3
+41.1
+43
+We can sit here on the grass
+@@@
+1
+A Picnic by the River
+3
+Resources/Audio/1_APicnicbytheRiver_3.mp3
+44.7
+50.5
+Someone forgot to throw these empty paper bags away There is litter everywhere
+@@@
+1
+A Picnic by the River
+4
+Resources/Audio/1_APicnicbytheRiver_4.mp3
+50.8
+55.5
+Why do people always leave litter around It s not a nice thing to do
+@@@
+1
+A Picnic by the River
+4
+Resources/Audio/1_APicnicbytheRiver_4.mp3
+50.7
+55.7
+everywhere why do people always leave litter around it's not a nice thing to
+@@@
+1
+A Picnic by the River
+4
+Resources/Audio/1_APicnicbytheRiver_4.mp3
+50.7
+55.7
+Why do people always leave litter around It s not a nice thing to do
+@@@
+1
+A Picnic by the River
+5
+Resources/Audio/1_APicnicbytheRiver_5.mp3
+55.5
+57.6
+It spoils other people s picnics
+@@@
+1
+A Picnic by the River
+5
+Resources/Audio/1_APicnicbytheRiver_5.mp3
+54.99
+57.6
+It spoils other people s picnics
+@@@
+1
+A Picnic by the River
+5
+Resources/Audio/1_APicnicbytheRiver_5.mp3
+55.399
+57.55
+It spoils other people s picnics
+@@@
+1
+A Picnic by the River
+5
+Resources/Audio/1_APicnicbytheRiver_5.mp3
+55.449
+61.5
+It spoils other people s picnics I think they are lazy Or maybe they just don t care
+@@@
+1
+A Picnic by the River
+5
+Resources/Audio/1_APicnicbytheRiver_5.mp3
+4.819
+13.99
+listening practice through dictation one copyright compass publishing all
+@@@
+1
+A Picnic by the River
+5
+Resources/Audio/1_APicnicbytheRiver_5.mp3
+55.8
+62
+do it spoils other people's picnics I think they are lazy or maybe they just
+@@@
+1
+A Picnic by the River
+5
+Resources/Audio/1_APicnicbytheRiver_5.mp3
+55.8
+62
+It spoils other people's picnics I think they are lazy Or maybe they just don't care
+@@@
+1
+A Picnic by the River
+6
+Resources/Audio/1_APicnicbytheRiver_6.mp3
+62.25
+67.7
+Look there are some empty cans and glass bottles under that tree too
+@@@
+1
+A Picnic by the River
+7
+Resources/Audio/1_APicnicbytheRiver_7.mp3
+67.8
+73
+People should clean up before they leave and not leave litter lying around
+@@@
+1
+A Picnic by the River
+8
+Resources/Audio/1_APicnicbytheRiver_8.mp3
+72.28
+79.75
+That's right Well after our picnic let's pick up all the litter we can and take it out of here
+@@@
+1
+A Picnic by the River
+8
+Resources/Audio/1_APicnicbytheRiver_8.mp3
+72.28
+79.9
+That's right Well after our picnic let's pick up all the litter we can and take it out of here
+@@@
+1
+A Picnic by the River
+9
+Resources/Audio/1_APicnicbytheRiver_9.mp3
+80
+85
+OK And next week let's come back with friends and pick up some more
+@@@
+1
+A Picnic by the River
+10
+Resources/Audio/1_APicnicbytheRiver_10.mp3
+85
+86.5
+Good idea
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+0
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_0.mp3
+2.5
+8.2
+Hi Jane Have you heard about the new laws to help people recycle
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+1
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_1.mp3
+8.2
+13.5
+I heard about them on the news last night I don t think I like them
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+2
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_2.mp3
+13.8
+21.5
+The government wants to keep the environment clean by recycling paper metal and glass instead of throwing these things away
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+3
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_3.mp3
+21.5
+27.5
+But who wants to pay an extra fifty cents each time you buy a cup of coffee
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+4
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_4.mp3
+27.5
+29.5
+That's a lot of money
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+5
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_5.mp3
+29.2
+34.2
+Fifty cents It's only five cents extra for a paper cup
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+6
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_6.mp3
+33.899
+36
+I thought it was fifty cents
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+7
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_7.mp3
+36
+43
+No it's only five cents Don't worry And you can get your money back when you return the cup
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+8
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_8.mp3
+43
+47.7
+That's fair Well maybe the government is right after all
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+9
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_9.mp3
+47.8
+52.5
+I'll return all the paper coffee cups I use from now on
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+9
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_9.mp3
+47.8
+52.3
+I'll return all the paper coffee cups I use from now on
+@@@
+2
+Let's Recycle (from Listening Practice through Diction)
+10
+Resources/Audio/2_Let'sRecycle(fromListeningPracticethroughDiction)_10.mp3
+52.2
+58
+Good We all need to recycle It helps to keep the environment clean
+@@@
+3
+Growing Roses
+0
+Resources/Audio/3_GrowingRoses_0.mp3
+3
+9
+Excuse me ma'am I have a problem with my rose bush
+@@@
+3
+Growing Roses
+0
+Resources/Audio/3_GrowingRoses_0.mp3
+3
+8.8
+Excuse me ma'am I have a problem with my rose bush
+@@@
+3
+Growing Roses
+0
+Resources/Audio/3_GrowingRoses_0.mp3
+3
+8.8
+Excuse me ma'am I have a problem with my rose bush
+@@@
+3
+Growing Roses
+1
+Resources/Audio/3_GrowingRoses_1.mp3
+8.3
+15
+It used to produce a lot of pink roses But now it doesn't produce any flowers at all
+@@@
+3
+Growing Roses
+2
+Resources/Audio/3_GrowingRoses_2.mp3
+15
+21.2
+I see That does seem like a problem Do the leaves on the plant look healthy
+@@@
+3
+Growing Roses
+3
+Resources/Audio/3_GrowingRoses_3.mp3
+21
+28.5
+Not really The leaves used to be very green Now most of them have turned brown
+@@@
+3
+Growing Roses
+4
+Resources/Audio/3_GrowingRoses_4.mp3
+28.4
+32.5
+Well I think your rose bush needs some fertilizer
+@@@
+3
+Growing Roses
+5
+Resources/Audio/3_GrowingRoses_5.mp3
+32.2
+36.5
+OK What sort of fertilizer do you think I should use
+@@@
+3
+Growing Roses
+6
+Resources/Audio/3_GrowingRoses_6.mp3
+36.5
+43.5
+This liquid fertilizer is very good It will help make your rose leaves green again
+@@@
+3
+Growing Roses
+7
+Resources/Audio/3_GrowingRoses_7.mp3
+43.2
+50.5
+Then the plant should produce roses quite soon The fertilizer costs about ten dollars
+@@@
+3
+Growing Roses
+8
+Resources/Audio/3_GrowingRoses_8.mp3
+50.5
+54.2
+How long will it take for my rose bush to recover
+@@@
+3
+Growing Roses
+9
+Resources/Audio/3_GrowingRoses_9.mp3
+54.2
+56
+About two weeks I think
+@@@
+3
+Growing Roses
+10
+Resources/Audio/3_GrowingRoses_10.mp3
+56.2
+60.3
+Great I'll take it Thank you so much for your help
+@@@
+3
+Growing Roses
+11
+Resources/Audio/3_GrowingRoses_11.mp3
+60.2
+63.34
+You're welcome
+@@@
+4
+Bird Watching
+0
+Resources/Audio/4_BirdWatching_0.mp3
+3
+10
+I want to go bird watching tomorrow Do you know a good area for birds
+@@@
+4
+Bird Watching
+1
+Resources/Audio/4_BirdWatching_1.mp3
+9.8
+16
+There is a quiet park near here There are always many beautiful birds there
+@@@
+4
+Bird Watching
+2
+Resources/Audio/4_BirdWatching_2.mp3
+16.5
+20.8
+Will I be able to see different types of birds in this area
+@@@
+4
+Bird Watching
+3
+Resources/Audio/4_BirdWatching_3.mp3
+21
+29
+Yes I think so If you use binoculars you can see the birds even if they are far away
+@@@
+4
+Bird Watching
+4
+Resources/Audio/4_BirdWatching_4.mp3
+28.8
+34.5
+Great I have a book about all the different types of birds
+@@@
+4
+Bird Watching
+5
+Resources/Audio/4_BirdWatching_5.mp3
+34.5
+38.2
+It seems as if you really like bird watching
+@@@
+4
+Bird Watching
+6
+Resources/Audio/4_BirdWatching_6.mp3
+38.5
+43
+Yes I do Would you like to come with me tomorrow
+@@@
+4
+Bird Watching
+7
+Resources/Audio/4_BirdWatching_7.mp3
+43
+47.5
+No thank you I think bird watching is boring
+@@@
+4
+Bird Watching
+8
+Resources/Audio/4_BirdWatching_8.mp3
+47.2
+54.8
+That s not true Birds are very interesting Some birds have colorful feathers
+@@@
+4
+Bird Watching
+9
+Resources/Audio/4_BirdWatching_9.mp3
+54.5
+62
+Some birds sing beautiful songs Some birds make special nests to lay eggs in
+@@@
+4
+Bird Watching
+10
+Resources/Audio/4_BirdWatching_10.mp3
+62
+68
+Really Maybe I will go bird watching one day after all
+@@@
+5
+Trees in the forest
+0
+Resources/Audio/5_Treesintheforest_0.mp3
+3
+11
+There are many forests in North America There are many trees in these forests
+@@@
+5
+Trees in the forest
+1
+Resources/Audio/5_Treesintheforest_1.mp3
+11
+19.5
+Some of these trees are more than two hundred feet tall Some are over five hundred years old
+@@@
+5
+Trees in the forest
+2
+Resources/Audio/5_Treesintheforest_2.mp3
+19
+27
+Several kinds of trees grow in these forests Fir cedar and pine are three
+@@@
+5
+Trees in the forest
+3
+Resources/Audio/5_Treesintheforest_3.mp3
+27.2
+35
+These trees grow in different areas Some grow in forests Some grow on the mountains
+@@@
+5
+Trees in the forest
+4
+Resources/Audio/5_Treesintheforest_4.mp3
+34.2
+41.5
+People who lived in this place long ago used these trees to make things out of wood
+@@@
+5
+Trees in the forest
+5
+Resources/Audio/5_Treesintheforest_5.mp3
+41.5
+46.5
+Many of these trees are now in special areas
+@@@
+5
+Trees in the forest
+6
+Resources/Audio/5_Treesintheforest_6.mp3
+46.5
+52
+These areas are called forest reserves or national parks
+@@@
+5
+Trees in the forest
+7
+Resources/Audio/5_Treesintheforest_7.mp3
+51.5
+59.5
+Some parks charge a small entrance fee Visitors must pay the fee to enter the parks
+@@@
+5
+Trees in the forest
+8
+Resources/Audio/5_Treesintheforest_8.mp3
+59.5
+64
+Then they can walk among the beautiful old trees
+@@@
+5
+Trees in the forest
+9
+Resources/Audio/5_Treesintheforest_9.mp3
+64
+71
+They must take care not to damage the trees We should all take care of forests
+@@@
+6
+An Easy Way to Shop
+0
+Resources/Audio/6_AnEasyWaytoShop_0.mp3
+8.87
+13
+Hey Steve Look at my new MP player
+@@@
+6
+An Easy Way to Shop
+1
+Resources/Audio/6_AnEasyWaytoShop_1.mp3
+12.5
+16.5
+Wow It looks cool Where did you buy it
+@@@
+6
+An Easy Way to Shop
+2
+Resources/Audio/6_AnEasyWaytoShop_2.mp3
+16.5
+20.5
+I bought it online at an electronics website
+@@@
+6
+An Easy Way to Shop
+3
+Resources/Audio/6_AnEasyWaytoShop_3.mp3
+20.5
+27.5
+I'm not very good at using a computer Is it hard to buy things online
+@@@
+6
+An Easy Way to Shop
+4
+Resources/Audio/6_AnEasyWaytoShop_4.mp3
+27.5
+35.5
+It's really easy All you do is go to the website and choose the item you want to look at
+@@@
+6
+An Easy Way to Shop
+5
+Resources/Audio/6_AnEasyWaytoShop_5.mp3
+35
+39
+There are so many items to choose from on the website
+@@@
+6
+An Easy Way to Shop
+6
+Resources/Audio/6_AnEasyWaytoShop_6.mp3
+39
+44.5
+After you choose what you want to buy you click on the check out button
+@@@
+6
+An Easy Way to Shop
+7
+Resources/Audio/6_AnEasyWaytoShop_7.mp3
+44.5
+47
+That does seem easy
+@@@
+6
+An Easy Way to Shop
+8
+Resources/Audio/6_AnEasyWaytoShop_8.mp3
+47
+52.5
+Yes it is It only takes about a week for your item to come
+@@@
+6
+An Easy Way to Shop
+9
+Resources/Audio/6_AnEasyWaytoShop_9.mp3
+52.5
+58
+Of course if you are in a hurry you can pay more to get it sent faster
+@@@
+6
+An Easy Way to Shop
+10
+Resources/Audio/6_AnEasyWaytoShop_10.mp3
+58
+61.5
+Do you pay for the item when it comes
+@@@
+6
+An Easy Way to Shop
+11
+Resources/Audio/6_AnEasyWaytoShop_11.mp3
+61.5
+66.5
+No you have to pay for it online with a credit card
+@@@
+7
+Cell Phone Messages
+0
+Resources/Audio/7_CellPhoneMessages_0.mp3
+3
+7
+I need to check my messages
+@@@
+7
+Cell Phone Messages
+0
+Resources/Audio/7_CellPhoneMessages_0.mp3
+3
+6.8
+I need to check my messages
+@@@
+7
+Cell Phone Messages
+1
+Resources/Audio/7_CellPhoneMessages_1.mp3
+6.8
+11.1
+How are you going to do that We are in the middle of the freeway
+@@@
+7
+Cell Phone Messages
+2
+Resources/Audio/7_CellPhoneMessages_2.mp3
+11
+16
+I'm going to use my cell phone Haven't you ever done that
+@@@
+7
+Cell Phone Messages
+3
+Resources/Audio/7_CellPhoneMessages_3.mp3
+16
+20.5
+No I just use my cell phone to talk to other people
+@@@
+7
+Cell Phone Messages
+4
+Resources/Audio/7_CellPhoneMessages_4.mp3
+28.5
+31
+How do you send a message that way
+@@@
+7
+Cell Phone Messages
+5
+Resources/Audio/7_CellPhoneMessages_5.mp3
+31
+40.5
+I just use the keys on the phone to type a short message Then I press the send button It's cheaper than making a phone call
+@@@
+7
+Cell Phone Messages
+5
+Resources/Audio/7_CellPhoneMessages_5.mp3
+31
+41
+I just use the keys on the phone to type a short message Then I press the send button It's cheaper than making a phone call
+@@@
+7
+Cell Phone Messages
+6
+Resources/Audio/7_CellPhoneMessages_6.mp3
+41
+46.2
+That's a great idea You can save both time and money that way
+@@@
+7
+Cell Phone Messages
+7
+Resources/Audio/7_CellPhoneMessages_7.mp3
+46
+51
+Right All my friends usually send me text messages now
+@@@
+7
+Cell Phone Messages
+8
+Resources/Audio/7_CellPhoneMessages_8.mp3
+51.2
+55.1
+Thanks for telling me about this I'll have to try it
+@@@
+7
+Cell Phone Messages
+9
+Resources/Audio/7_CellPhoneMessages_9.mp3
+55.1
+59.5
+You're welcome I think you'll find it useful
+@@@
+8
+Bubble in Boiling Water
+0
+Resources/Audio/8_BubbleinBoilingWater_0.mp3
+3.4
+8.5
+Where do the bubbles come from when you boil water
+@@@
+8
+Bubble in Boiling Water
+1
+Resources/Audio/8_BubbleinBoilingWater_1.mp3
+8.5
+15.209
+Water is a liquid When it is heated it moves around faster and faster
+@@@
+8
+Bubble in Boiling Water
+2
+Resources/Audio/8_BubbleinBoilingWater_2.mp3
+15
+20
+When it starts to boil the liquid turns into a gas
+@@@
+8
+Bubble in Boiling Water
+3
+Resources/Audio/8_BubbleinBoilingWater_3.mp3
+20
+27
+This gas is called water vapor This gas is lighter than the water around it
+@@@
+8
+Bubble in Boiling Water
+4
+Resources/Audio/8_BubbleinBoilingWater_4.mp3
+27
+32.2
+It rises to the top Then it disappears into the air
+@@@
+8
+Bubble in Boiling Water
+5
+Resources/Audio/8_BubbleinBoilingWater_5.mp3
+31.8
+38.5
+As the water gets hotter and hotter it starts turning into gas very quickly
+@@@
+8
+Bubble in Boiling Water
+6
+Resources/Audio/8_BubbleinBoilingWater_6.mp3
+38.3
+45.2
+A lot of bubbles form at the same time All these bubbles try to escape at once
+@@@
+8
+Bubble in Boiling Water
+7
+Resources/Audio/8_BubbleinBoilingWater_7.mp3
+45.2
+50.5
+The bubbles push the water out of the way and jump out
+@@@
+8
+Bubble in Boiling Water
+8
+Resources/Audio/8_BubbleinBoilingWater_8.mp3
+50.25
+53.5
+This is what we call boiling water
+@@@
+8
+Bubble in Boiling Water
+9
+Resources/Audio/8_BubbleinBoilingWater_9.mp3
+53.5
+60
+More and more water turns into gas More of it disappears into the air
+@@@
+8
+Bubble in Boiling Water
+10
+Resources/Audio/8_BubbleinBoilingWater_10.mp3
+60
+66
+After a while every drop of the water will be gone Try it and see
+@@@
+9
+The Blue Sky
+0
+Resources/Audio/9_TheBlueSky_0.mp3
+2.8
+10
+Joe asked me something about science just now But I didn't know the answer
+@@@
+9
+The Blue Sky
+1
+Resources/Audio/9_TheBlueSky_1.mp3
+9.7
+12.8
+I m good at science Ask me
+@@@
+9
+The Blue Sky
+2
+Resources/Audio/9_TheBlueSky_2.mp3
+12.8
+16.2
+OK Why is the sky blue
+@@@
+9
+The Blue Sky
+3
+Resources/Audio/9_TheBlueSky_3.mp3
+16
+23.8
+I'll explain it in a simple way Light comes through the air from the sun in waves
+@@@
+9
+The Blue Sky
+4
+Resources/Audio/9_TheBlueSky_4.mp3
+23.5
+26.5
+The light is in many colors right
+@@@
+9
+The Blue Sky
+5
+Resources/Audio/9_TheBlueSky_5.mp3
+26.5
+31.3
+Right Blue light waves are smaller than air molecules
+@@@
+9
+The Blue Sky
+6
+Resources/Audio/9_TheBlueSky_6.mp3
+31.3
+35.2
+They sometimes get absorbed by these molecules
+@@@
+9
+The Blue Sky
+7
+Resources/Audio/9_TheBlueSky_7.mp3
+34
+37.8
+OK What happens then
+@@@
+9
+The Blue Sky
+8
+Resources/Audio/9_TheBlueSky_8.mp3
+37.8
+42.2
+Then the blue light waves scatter in many directions
+@@@
+9
+The Blue Sky
+9
+Resources/Audio/9_TheBlueSky_9.mp3
+42
+47.5
+Your eyes see this blue light from above you after it leaves the air molecules
+@@@
+9
+The Blue Sky
+10
+Resources/Audio/9_TheBlueSky_10.mp3
+47.3
+53.8
+So that is what makes the sky blue What happens to the other colors
+@@@
+9
+The Blue Sky
+11
+Resources/Audio/9_TheBlueSky_11.mp3
+53.8
+57
+They reflect off the things that they hit
+@@@
+9
+The Blue Sky
+12
+Resources/Audio/9_TheBlueSky_12.mp3
+57
+63.8
+Your shirt is red because our eyes see the red light reflected from it
+@@@
+9
+The Blue Sky
+13
+Resources/Audio/9_TheBlueSky_13.mp3
+63.8
+67.5
+Now I understand why the sky is blue
+@@@
+10
+A New Camera
+0
+Resources/Audio/10_ANewCamera_0.mp3
+2.8
+7
+I just bought a digital camera
+@@@
+10
+A New Camera
+1
+Resources/Audio/10_ANewCamera_1.mp3
+6.8
+9.5
+What is wrong with your old camera
+@@@
+10
+A New Camera
+2
+Resources/Audio/10_ANewCamera_2.mp3
+9.5
+15.2
+Nothing I bought this one because I want to store my pictures on my computer
+@@@
+10
+A New Camera
+3
+Resources/Audio/10_ANewCamera_3.mp3
+15
+21.8
+I see I can also delete pictures that are not very good I don't have to print them
+@@@
+10
+A New Camera
+4
+Resources/Audio/10_ANewCamera_4.mp3
+21.6
+27.2
+I like to print all my photos That's why I like the old cameras
+@@@
+10
+A New Camera
+5
+Resources/Audio/10_ANewCamera_5.mp3
+27
+32.5
+Oh you can print digital photos too Many shops will print them for you
+@@@
+10
+A New Camera
+6
+Resources/Audio/10_ANewCamera_6.mp3
+32.5
+38.2
+Really Yes You can even buy a good printer and do it from home
+@@@
+10
+A New Camera
+7
+Resources/Audio/10_ANewCamera_7.mp3
+38.2
+43
+That seems easy How do you store these digital pictures
+@@@
+10
+A New Camera
+8
+Resources/Audio/10_ANewCamera_8.mp3
+43
+48.5
+You can store the pictures on your computer But you might run out of space
+@@@
+10
+A New Camera
+9
+Resources/Audio/10_ANewCamera_9.mp3
+48.5
+52.4
+I save all the pictures I like on compact discs
+@@@
+10
+A New Camera
+10
+Resources/Audio/10_ANewCamera_10.mp3
+52.4
+57
+You can store more than seven hundred photos on one CD
+@@@
+10
+A New Camera
+11
+Resources/Audio/10_ANewCamera_11.mp3
+57
+62
+Great Maybe I should get a digital camera too
+@@@
+11
+Gold
+0
+Resources/Audio/11_Gold_0.mp3
+6
+11
+Gold has been a part of many cultures for hundreds of years
+@@@
+11
+Gold
+1
+Resources/Audio/11_Gold_1.mp3
+11
+14.2
+hundreds of years people made coins and jewelry with gold gold is a soft metal
+@@@
+11
+Gold
+1
+Resources/Audio/11_Gold_1.mp3
+11
+14.2
+People made coins and jewelry with gold
+@@@
+11
+Gold
+2
+Resources/Audio/11_Gold_2.mp3
+14.2
+21.2
+Gold is a soft metal It is easy to shape into sheets long wires or rings
+@@@
+11
+Gold
+3
+Resources/Audio/11_Gold_3.mp3
+21.2
+24.6
+People sometimes mix gold with other metals
+@@@
+11
+Gold
+4
+Resources/Audio/11_Gold_4.mp3
+24.2
+30.2
+This makes the gold harder Then it can be made into beautiful jewelry
+@@@
+11
+Gold
+5
+Resources/Audio/11_Gold_5.mp3
+30.5
+36.2
+Why do we value gold so much It has a special color
+@@@
+11
+Gold
+6
+Resources/Audio/11_Gold_6.mp3
+34.2
+45
+No other metal is a bright yellow We also value gold because it is rare A rare thing is hard to find
+@@@
+11
+Gold
+6
+Resources/Audio/11_Gold_6.mp3
+36
+45
+No other metal is a bright yellow We also value gold because it is rare A rare thing is hard to find
+@@@
+11
+Gold
+7
+Resources/Audio/11_Gold_7.mp3
+45
+51
+Even after hundreds of years gold is still a precious metal now
+@@@
+11
+Gold
+8
+Resources/Audio/11_Gold_8.mp3
+50.5
+55
+It is still valued for its beauty It is still rare
+@@@
+11
+Gold
+9
+Resources/Audio/11_Gold_9.mp3
+55
+63
+Today banks store gold in the form of bars Its value is more than six hundred dollar per ounce
+@@@
+12
+The Summer Music Festival
+0
+Resources/Audio/12_TheSummerMusicFestival_0.mp3
+3
+8
+Have you heard about the music festival next summer
+@@@
+12
+The Summer Music Festival
+1
+Resources/Audio/12_TheSummerMusicFestival_1.mp3
+8.2
+14
+I read that it is going to have about twenty different bands playing in it
+@@@
+12
+The Summer Music Festival
+2
+Resources/Audio/12_TheSummerMusicFestival_2.mp3
+13.8
+19.6
+I think I did hear someone talking about it Are you planning on going
+@@@
+12
+The Summer Music Festival
+3
+Resources/Audio/12_TheSummerMusicFestival_3.mp3
+19.5
+26.7
+I'll go if I can get tickets I heard that people are going to line up overnight to get tickets
+@@@
+12
+The Summer Music Festival
+4
+Resources/Audio/12_TheSummerMusicFestival_4.mp3
+26.7
+30
+I might line up overnight too
+@@@
+12
+The Summer Music Festival
+5
+Resources/Audio/12_TheSummerMusicFestival_5.mp3
+29.8
+33.6
+I don't think I want to line up all night long
+@@@
+12
+The Summer Music Festival
+6
+Resources/Audio/12_TheSummerMusicFestival_6.mp3
+33.6
+42.5
+Well I'm going to do it I think it is going to be a great music festival that I won't want to miss
+@@@
+12
+The Summer Music Festival
+7
+Resources/Audio/12_TheSummerMusicFestival_7.mp3
+42.5
+47
+Maybe Do you know how much the tickets are going to cost
+@@@
+12
+The Summer Music Festival
+8
+Resources/Audio/12_TheSummerMusicFestival_8.mp3
+46.8
+53
+I'm not sure but I think each ticket will be about seventy five dollar
+@@@
+12
+The Summer Music Festival
+9
+Resources/Audio/12_TheSummerMusicFestival_9.mp3
+53
+62
+That's a lot of money I don't think I want to spend that much on a ticket Good luck anyway
+@@@
+13
+The School Play
+0
+Resources/Audio/13_TheSchoolPlay_0.mp3
+3
+8
+Are you going to the school play on Saturday night
+@@@
+13
+The School Play
+1
+Resources/Audio/13_TheSchoolPlay_1.mp3
+8
+14
+The school play I didn't know there was going to be a play on Saturday night
+@@@
+13
+The School Play
+2
+Resources/Audio/13_TheSchoolPlay_2.mp3
+14
+20.5
+Yes I heard about it in English class yesterday I think it will be really good
+@@@
+13
+The School Play
+3
+Resources/Audio/13_TheSchoolPlay_3.mp3
+21
+23.8
+Who told you about it
+@@@
+13
+The School Play
+4
+Resources/Audio/13_TheSchoolPlay_4.mp3
+23
+31.5
+Ms Martin our English teacher told us all about it This is the drama club's first play of the year
+@@@
+13
+The School Play
+5
+Resources/Audio/13_TheSchoolPlay_5.mp3
+31.2
+36
+What is the play about I hope it's nothing boring
+@@@
+13
+The School Play
+6
+Resources/Audio/13_TheSchoolPlay_6.mp3
+36
+38.5
+Can you guess what it is
+@@@
+13
+The School Play
+7
+Resources/Audio/13_TheSchoolPlay_7.mp3
+38.2
+41.5
+Oh come on tell me please
+@@@
+13
+The School Play
+8
+Resources/Audio/13_TheSchoolPlay_8.mp3
+41
+43.8
+It s The Sound of Music
+@@@
+13
+The School Play
+8
+Resources/Audio/13_TheSchoolPlay_8.mp3
+41
+43.8
+It's The Sound of Music
+@@@
+13
+The School Play
+9
+Resources/Audio/13_TheSchoolPlay_9.mp3
+43.8
+52
+Really I watched The Sound of Music on TV last month It's very good Are you sure
+@@@
+13
+The School Play
+10
+Resources/Audio/13_TheSchoolPlay_10.mp3
+52
+60.2
+Of course I'm sure that's what Ms Martin said Would you like to watch the play with me on Saturday night
+@@@
+13
+The School Play
+10
+Resources/Audio/13_TheSchoolPlay_10.mp3
+51.6
+60.2
+Of course I'm sure that's what Ms Martin said Would you like to watch the play with me on Saturday night
+@@@
+13
+The School Play
+11
+Resources/Audio/13_TheSchoolPlay_11.mp3
+60.2
+66.379
+That would be great Let's go early so we get good seats
+@@@
+14
+Ballet Class
+0
+Resources/Audio/14_BalletClass_0.mp3
+3
+7.5
+Hi Cindy where are you going
+@@@
+14
+Ballet Class
+1
+Resources/Audio/14_BalletClass_1.mp3
+7.2
+11.5
+Good afternoon Mrs White I'm going to ballet class
+@@@
+14
+Ballet Class
+2
+Resources/Audio/14_BalletClass_2.mp3
+11.5
+20
+Ballet class I didn't know you were studying ballet How long have you been studying ballet
+@@@
+14
+Ballet Class
+3
+Resources/Audio/14_BalletClass_3.mp3
+19.5
+23.5
+Today is my first day and I don't want to go
+@@@
+14
+Ballet Class
+4
+Resources/Audio/14_BalletClass_4.mp3
+23.5
+30.2
+My mom and dad want me to learn ballet I'm not sure I want to learn how to dance
+@@@
+14
+Ballet Class
+5
+Resources/Audio/14_BalletClass_5.mp3
+30
+37.5
+I used to learn ballet too when I was your age Now I teach ballet in a dance school
+@@@
+14
+Ballet Class
+6
+Resources/Audio/14_BalletClass_6.mp3
+37.5
+42
+Oh I didn't know that Where do you teach your classes
+@@@
+14
+Ballet Class
+7
+Resources/Audio/14_BalletClass_7.mp3
+41.5
+50.5
+Down the street at Easy Steps Dance Academy Ballet is fun to learn and it's a very graceful dance
+@@@
+14
+Ballet Class
+8
+Resources/Audio/14_BalletClass_8.mp3
+50.5
+57.579
+You'll need to learn the steps and practice a lot of course but I think you'll enjoy it
+@@@
+14
+Ballet Class
+9
+Resources/Audio/14_BalletClass_9.mp3
+57.579
+59
+I hope so
+@@@
+14
+Ballet Class
+10
+Resources/Audio/14_BalletClass_10.mp3
+59.5
+63
+Well go and have some fun dancing
+@@@
+15
+Monet's Garden
+0
+Resources/Audio/15_Monet'sGarden_0.mp3
+3
+7
+Claude Monet was a great artist
+@@@
+15
+Monet's Garden
+1
+Resources/Audio/15_Monet'sGarden_1.mp3
+7
+11.8
+He was the first of a group of artists called the Impressionists
+@@@
+15
+Monet's Garden
+2
+Resources/Audio/15_Monet'sGarden_2.mp3
+11.8
+18
+This group of artists thought about how things in the world made them feel
+@@@
+15
+Monet's Garden
+3
+Resources/Audio/15_Monet'sGarden_3.mp3
+18
+21.5
+They tried to show this in their work
+@@@
+15
+Monet's Garden
+4
+Resources/Audio/15_Monet'sGarden_4.mp3
+21.5
+27.2
+This way of painting shows how light can change shapes and colors
+@@@
+15
+Monet's Garden
+5
+Resources/Audio/15_Monet'sGarden_5.mp3
+27.2
+31
+Monet did a lot of his work outdoors
+@@@
+15
+Monet's Garden
+6
+Resources/Audio/15_Monet'sGarden_6.mp3
+30.5
+35
+He wanted to show how daylight made things look
+@@@
+15
+Monet's Garden
+7
+Resources/Audio/15_Monet'sGarden_7.mp3
+35
+38.5
+Many of his paintings are of gardens
+@@@
+15
+Monet's Garden
+8
+Resources/Audio/15_Monet'sGarden_8.mp3
+38.5
+45.5
+He liked to paint flowers and trees He loved to paint in his own garden
+@@@
+15
+Monet's Garden
+9
+Resources/Audio/15_Monet'sGarden_9.mp3
+45.2
+51
+His garden was in a village He lived there for many years
+@@@
+15
+Monet's Garden
+10
+Resources/Audio/15_Monet'sGarden_10.mp3
+51
+57
+Today many visitors come each year to this garden
+@@@
+15
+Monet's Garden
+11
+Resources/Audio/15_Monet'sGarden_11.mp3
+57
+64
+They come from all over the world Most of them are art lovers or artists
+@@@
+15
+Monet's Garden
+12
+Resources/Audio/15_Monet'sGarden_12.mp3
+64
+69
+They come to see the place that Monet loved so much
+@@@
+16
+A Haunted House
+0
+Resources/Audio/16_AHauntedHouse_0.mp3
+7.5
+14
+Oh no it's raining I wanted to go to the beach today
+@@@
+16
+A Haunted House
+1
+Resources/Audio/16_AHauntedHouse_1.mp3
+13.5
+20.5
+Well I'm visiting a haunted house this afternoon You can come with me if you like
+@@@
+16
+A Haunted House
+2
+Resources/Audio/16_AHauntedHouse_2.mp3
+20.5
+24
+A haunted house What is it like
+@@@
+16
+A Haunted House
+3
+Resources/Audio/16_AHauntedHouse_3.mp3
+23.8
+29.5
+It's really dark with lots of old furniture and pictures on the walls
+@@@
+16
+A Haunted House
+4
+Resources/Audio/16_AHauntedHouse_4.mp3
+29.5
+34.5
+It's called a haunted house because it's full of ghosts
+@@@
+16
+A Haunted House
+5
+Resources/Audio/16_AHauntedHouse_5.mp3
+34.5
+42
+You're joking right I don't believe in ghosts Where is the haunted house
+@@@
+16
+A Haunted House
+6
+Resources/Audio/16_AHauntedHouse_6.mp3
+40.5
+43.5
+The house is in the old forest
+@@@
+16
+A Haunted House
+5
+Resources/Audio/16_AHauntedHouse_5.mp3
+34.5
+40.5
+You're joking right I don't believe in ghosts Where is the haunted house
+@@@
+16
+A Haunted House
+6
+Resources/Audio/16_AHauntedHouse_6.mp3
+40.5
+43.5
+The house is in the old forest
+@@@
+16
+A Haunted House
+7
+Resources/Audio/16_AHauntedHouse_7.mp3
+43.5
+47.5
+Oh Are you really sure you want to go
+@@@
+16
+A Haunted House
+8
+Resources/Audio/16_AHauntedHouse_8.mp3
+47.5
+52
+What's wrong I thought you didn't believe in ghosts
+@@@
+16
+A Haunted House
+9
+Resources/Audio/16_AHauntedHouse_9.mp3
+52
+56.5
+Well I don't really believe in ghosts but
+@@@
+16
+A Haunted House
+10
+Resources/Audio/16_AHauntedHouse_10.mp3
+56.5
+62.5
+That's OK I don't believe in ghosts either I was only joking
+@@@
+16
+A Haunted House
+11
+Resources/Audio/16_AHauntedHouse_11.mp3
+62.5
+69
+The old house isn't really haunted it's just a very old empty house
+@@@
+16
+A Haunted House
+12
+Resources/Audio/16_AHauntedHouse_12.mp3
+69
+74.5
+Whew I'm glad to hear that Sure I'll come with you
+@@@
+17
+A Big Screen  TV
+0
+Resources/Audio/17_ABigScreenTV_0.mp3
+4
+9
+I'm thinking about buying a big screen TV
+@@@
+17
+A Big Screen  TV
+0
+Resources/Audio/17_ABigScreenTV_0.mp3
+4
+8.5
+I'm thinking about buying a big screen TV
+@@@
+17
+A Big Screen  TV
+1
+Resources/Audio/17_ABigScreenTV_1.mp3
+8.5
+16
+Wow I've seen those in the store They cost a lot of money Can you afford to buy one
+@@@
+17
+A Big Screen  TV
+2
+Resources/Audio/17_ABigScreenTV_2.mp3
+16
+22
+They do cost a lot of money But I really enjoy watching TV
+@@@
+17
+A Big Screen  TV
+3
+Resources/Audio/17_ABigScreenTV_3.mp3
+21.8
+26.5
+I think it's much more fun to watch TV shows on a big screen
+@@@
+17
+A Big Screen  TV
+4
+Resources/Audio/17_ABigScreenTV_4.mp3
+26.5
+33.7
+I've never watched TV on a big screen Do you think the quality of the picture is good
+@@@
+17
+A Big Screen  TV
+5
+Resources/Audio/17_ABigScreenTV_5.mp3
+33.7
+36.5
+Yes the quality is great
+@@@
+17
+A Big Screen  TV
+6
+Resources/Audio/17_ABigScreenTV_6.mp3
+36.5
+42.2
+When you watch soccer games you feel like you are right there on the field
+@@@
+17
+A Big Screen  TV
+7
+Resources/Audio/17_ABigScreenTV_7.mp3
+42.2
+47
+When you buy the TV can I come over to your house
+@@@
+17
+A Big Screen  TV
+8
+Resources/Audio/17_ABigScreenTV_8.mp3
+47
+52.5
+Then I can enjoy watching TV on the big screen with you
+@@@
+17
+A Big Screen  TV
+9
+Resources/Audio/17_ABigScreenTV_9.mp3
+52.2
+56.5
+I have to save some money to buy the TV first
+@@@
+17
+A Big Screen  TV
+10
+Resources/Audio/17_ABigScreenTV_10.mp3
+56.5
+61
+It will be a few months before I can afford to buy it
+@@@
+18
+He's Famous
+0
+Resources/Audio/18_He'sFamous_0.mp3
+3
+7.8
+Are you going to the new Tim Cross movie tonight
+@@@
+18
+He's Famous
+1
+Resources/Audio/18_He'sFamous_1.mp3
+7.87
+11.5
+I don t know It looks kind of boring
+@@@
+18
+He's Famous
+2
+Resources/Audio/18_He'sFamous_2.mp3
+11.2
+19
+Really I think it looks quite interesting Besides Tim Cross is a famous actor
+@@@
+18
+He's Famous
+3
+Resources/Audio/18_He'sFamous_3.mp3
+19.5
+24
+He may be famous but I don't think he's a very good actor
+@@@
+18
+He's Famous
+4
+Resources/Audio/18_He'sFamous_4.mp3
+24
+30.2
+He always acts in the same sort of movie He never does anything different
+@@@
+18
+He's Famous
+5
+Resources/Audio/18_He'sFamous_5.mp3
+29.8
+33.5
+Well at least you think he's good looking right
+@@@
+18
+He's Famous
+6
+Resources/Audio/18_He'sFamous_6.mp3
+33.5
+38
+No not really He always looks so sleepy
+@@@
+18
+He's Famous
+7
+Resources/Audio/18_He'sFamous_7.mp3
+38
+44
+But most girls think he's handsome Maybe that's why he is so famous
+@@@
+18
+He's Famous
+8
+Resources/Audio/18_He'sFamous_8.mp3
+44
+47.8
+None of my friends think he is good looking at all
+@@@
+18
+He's Famous
+9
+Resources/Audio/18_He'sFamous_9.mp3
+47.8
+53.5
+I used to like him a few years ago but now I think he's not handsome at all
+@@@
+18
+He's Famous
+10
+Resources/Audio/18_He'sFamous_10.mp3
+53.8
+59
+Hey I just got a haircut to try to look more like him
+@@@
+18
+He's Famous
+11
+Resources/Audio/18_He'sFamous_11.mp3
+59
+64
+Well that explains why I don't like your new haircut
+@@@
+19
+A Housewarming Party
+0
+Resources/Audio/19_AHousewarmingParty_0.mp3
+4
+9
+Hi Steve Thanks for coming to my housewarming party
+@@@
+19
+A Housewarming Party
+1
+Resources/Audio/19_AHousewarmingParty_1.mp3
+8.5
+15.5
+Hello Sue Thanks for inviting me to see your lovely new home It's beautiful
+@@@
+19
+A Housewarming Party
+2
+Resources/Audio/19_AHousewarmingParty_2.mp3
+15.8
+18.8
+Thank you I'm glad you like it
+@@@
+19
+A Housewarming Party
+3
+Resources/Audio/19_AHousewarmingParty_3.mp3
+18.7
+22
+Did you decorate your house all by yourself
+@@@
+19
+A Housewarming Party
+4
+Resources/Audio/19_AHousewarmingParty_4.mp3
+22.2
+26.7
+Yes I did I traveled around Europe last year
+@@@
+19
+A Housewarming Party
+5
+Resources/Audio/19_AHousewarmingParty_5.mp3
+26.7
+31
+I got some beautiful furniture for my house there
+@@@
+19
+A Housewarming Party
+5
+Resources/Audio/19_AHousewarmingParty_5.mp3
+26.7
+30.8
+I got some beautiful furniture for my house there
+@@@
+19
+A Housewarming Party
+6
+Resources/Audio/19_AHousewarmingParty_6.mp3
+30.3
+33.9
+Do you plan to go on a new trip this summer
+@@@
+19
+A Housewarming Party
+7
+Resources/Audio/19_AHousewarmingParty_7.mp3
+33.9
+37
+Yes I am planning to visit China
+@@@
+19
+A Housewarming Party
+8
+Resources/Audio/19_AHousewarmingParty_8.mp3
+37
+40.2
+That's great How long will you be there
+@@@
+19
+A Housewarming Party
+9
+Resources/Audio/19_AHousewarmingParty_9.mp3
+40.4
+43.2
+I will be there for a month
+@@@
+19
+A Housewarming Party
+10
+Resources/Audio/19_AHousewarmingParty_10.mp3
+43.2
+47.4
+You can find some beautiful things in China for your new house
+@@@
+19
+A Housewarming Party
+10
+Resources/Audio/19_AHousewarmingParty_10.mp3
+43
+47.4
+You can find some beautiful things in China for your new house
+@@@
+19
+A Housewarming Party
+11
+Resources/Audio/19_AHousewarmingParty_11.mp3
+47.5
+50
+You should go shopping while you are there
+@@@
+19
+A Housewarming Party
+12
+Resources/Audio/19_AHousewarmingParty_12.mp3
+50
+54.5
+Of course It will be fun to go shopping there
+@@@
+19
+A Housewarming Party
+13
+Resources/Audio/19_AHousewarmingParty_13.mp3
+54.5
+58.5
+By the way please help yourself to the refreshments
+@@@
+19
+A Housewarming Party
+14
+Resources/Audio/19_AHousewarmingParty_14.mp3
+58.8
+62.5
+Thanks The food looks delicious
+@@@
+20
+Making Music
+0
+Resources/Audio/20_MakingMusic_0.mp3
+3
+10
+Do you like to listen to music Music is made up of sound
+@@@
+20
+Making Music
+1
+Resources/Audio/20_MakingMusic_1.mp3
+10
+13
+People all over the world like music
+@@@
+20
+Making Music
+2
+Resources/Audio/20_MakingMusic_2.mp3
+13
+17
+People have liked it for hundreds of years
+@@@
+20
+Making Music
+3
+Resources/Audio/20_MakingMusic_3.mp3
+17
+21
+People who write music are called composers
+@@@
+20
+Making Music
+4
+Resources/Audio/20_MakingMusic_4.mp3
+21
+27
+Most of the time a composer does not sing or play his own music
+@@@
+20
+Making Music
+5
+Resources/Audio/20_MakingMusic_5.mp3
+26.8
+30.5
+He writes it all down in the form of notes
+@@@
+20
+Making Music
+6
+Resources/Audio/20_MakingMusic_6.mp3
+30.5
+36
+Those who know how to read music can understand these notes
+@@@
+20
+Making Music
+6
+Resources/Audio/20_MakingMusic_6.mp3
+30.5
+35.5
+Those who know how to read music can understand these notes
+@@@
+20
+Making Music
+7
+Resources/Audio/20_MakingMusic_7.mp3
+35.5
+40.5
+This is how people can sing the song or play it
+@@@
+20
+Making Music
+8
+Resources/Audio/20_MakingMusic_8.mp3
+40.5
+44
+Lots of people like to play music
+@@@
+20
+Making Music
+9
+Resources/Audio/20_MakingMusic_9.mp3
+44
+47
+Music can be played on instruments
+@@@
+20
+Making Music
+10
+Resources/Audio/20_MakingMusic_10.mp3
+46.8
+50.5
+There are many types of musical instruments
+@@@
+20
+Making Music
+11
+Resources/Audio/20_MakingMusic_11.mp3
+50.5
+55
+Some of these are the piano the violin and the drum
+@@@
+20
+Making Music
+12
+Resources/Audio/20_MakingMusic_12.mp3
+55
+58
+People can make music as a group
+@@@
+20
+Making Music
+13
+Resources/Audio/20_MakingMusic_13.mp3
+58
+62
+A choir is a group of people who sing
+@@@
+20
+Making Music
+14
+Resources/Audio/20_MakingMusic_14.mp3
+62
+67
+An orchestra is a group of people who play musical instruments
+@@@
+21
+Where Is Your Homework
+0
+Resources/Audio/21_WhereIsYourHomework_0.mp3
+8
+12.8
+Did you finish your homework for English class
+@@@
+21
+Where Is Your Homework
+0
+Resources/Audio/21_WhereIsYourHomework_0.mp3
+8
+12.5
+Did you finish your homework for English class
+@@@
+21
+Where Is Your Homework
+1
+Resources/Audio/21_WhereIsYourHomework_1.mp3
+12.5
+15.8
+Homework There wasn't any homework
+@@@
+21
+Where Is Your Homework
+2
+Resources/Audio/21_WhereIsYourHomework_2.mp3
+15.8
+21.5
+We had to finish reading a book and then write a two hundred word essay on it
+@@@
+21
+Where Is Your Homework
+3
+Resources/Audio/21_WhereIsYourHomework_3.mp3
+21.5
+25
+I don't think Ms Jones gave us any homework
+@@@
+21
+Where Is Your Homework
+4
+Resources/Audio/21_WhereIsYourHomework_4.mp3
+25
+29
+I always write what I have to do in my notebook
+@@@
+21
+Where Is Your Homework
+5
+Resources/Audio/21_WhereIsYourHomework_5.mp3
+28.7
+32
+Did she really tell us to write an essay
+@@@
+21
+Where Is Your Homework
+6
+Resources/Audio/21_WhereIsYourHomework_6.mp3
+32
+35.8
+Yes Look here's my essay See
+@@@
+21
+Where Is Your Homework
+7
+Resources/Audio/21_WhereIsYourHomework_7.mp3
+35.8
+43
+Oh no What am I going to do We've only got ten minutes before class starts
+@@@
+21
+Where Is Your Homework
+8
+Resources/Audio/21_WhereIsYourHomework_8.mp3
+43
+48
+I don't know Maybe Ms Jones will let you hand it in tomorrow
+@@@
+21
+Where Is Your Homework
+9
+Resources/Audio/21_WhereIsYourHomework_9.mp3
+48
+55.2
+Hey let me copy your essay I'll change a few words Ms Jones will never know
+@@@
+21
+Where Is Your Homework
+10
+Resources/Audio/21_WhereIsYourHomework_10.mp3
+55.2
+59
+No I'm sorry That's not the right thing to do
+@@@
+21
+Where Is Your Homework
+11
+Resources/Audio/21_WhereIsYourHomework_11.mp3
+59
+62.5
+Oh come on I thought you were my friend
+@@@
+21
+Where Is Your Homework
+12
+Resources/Audio/21_WhereIsYourHomework_12.mp3
+62.5
+67.5
+I am your friend That's why I'm not letting you copy my work
+@@@
+22
+After School Activities
+0
+Resources/Audio/22_AfterSchoolActivities_0.mp3
+3.5
+8
+Will you play any sports this school year
+@@@
+22
+After School Activities
+1
+Resources/Audio/22_AfterSchoolActivities_1.mp3
+8.2
+13.5
+I want to play hockey But I'm not sure if I will have enough time
+@@@
+22
+After School Activities
+2
+Resources/Audio/22_AfterSchoolActivities_2.mp3
+13.5
+18.8
+I'm on the school soccer team I'm also going to take up swimming
+@@@
+22
+After School Activities
+3
+Resources/Audio/22_AfterSchoolActivities_3.mp3
+18.2
+22
+You're going to be on the soccer team and swim too
+@@@
+22
+After School Activities
+4
+Resources/Audio/22_AfterSchoolActivities_4.mp3
+22.2
+27.2
+Yeah That seems like a lot You will be very busy
+@@@
+22
+After School Activities
+5
+Resources/Audio/22_AfterSchoolActivities_5.mp3
+27.2
+30
+Do you think you will have any free time
+@@@
+22
+After School Activities
+6
+Resources/Audio/22_AfterSchoolActivities_6.mp3
+30
+36.5
+I will play soccer with my school team during the week I will go swimming during the weekend
+@@@
+22
+After School Activities
+7
+Resources/Audio/22_AfterSchoolActivities_7.mp3
+36.5
+41
+When will you have time to do your homework And when will you study
+@@@
+22
+After School Activities
+8
+Resources/Audio/22_AfterSchoolActivities_8.mp3
+41
+47
+I do my homework after school every day I study every weekend
+@@@
+22
+After School Activities
+9
+Resources/Audio/22_AfterSchoolActivities_9.mp3
+47
+52
+My mother won't let me play sports until I have done all my work
+@@@
+22
+After School Activities
+10
+Resources/Audio/22_AfterSchoolActivities_10.mp3
+52
+58.5
+Well I hope you find enough time for both schoolwork and sports Good luck
+@@@
+23
+Arts and Crafts Class
+0
+Resources/Audio/23_ArtsandCraftsClass_0.mp3
+4
+12.2
+Hi Mom I'm back from arts and crafts class Look at what I'm wearing
+@@@
+23
+Arts and Crafts Class
+1
+Resources/Audio/23_ArtsandCraftsClass_1.mp3
+12
+16
+Well you're wearing a blue T shirt and jeans
+@@@
+23
+Arts and Crafts Class
+2
+Resources/Audio/23_ArtsandCraftsClass_2.mp3
+16
+19.5
+Sure but what else am I wearing
+@@@
+23
+Arts and Crafts Class
+3
+Resources/Audio/23_ArtsandCraftsClass_3.mp3
+19.5
+28
+Oh those earrings are very pretty Is that what you're learning to make this week in arts and crafts class
+@@@
+23
+Arts and Crafts Class
+4
+Resources/Audio/23_ArtsandCraftsClass_4.mp3
+28
+32.8
+Yes we're learning to make jewelry from beads this week
+@@@
+23
+Arts and Crafts Class
+5
+Resources/Audio/23_ArtsandCraftsClass_5.mp3
+32.8
+37
+The beads come in different colors and shapes
+@@@
+23
+Arts and Crafts Class
+6
+Resources/Audio/23_ArtsandCraftsClass_6.mp3
+36.8
+41.5
+First we decide what sort of jewelry we want to make
+@@@
+23
+Arts and Crafts Class
+7
+Resources/Audio/23_ArtsandCraftsClass_7.mp3
+41.5
+48.5
+Then we choose the beads we want and string them on transparent plastic wire
+@@@
+23
+Arts and Crafts Class
+8
+Resources/Audio/23_ArtsandCraftsClass_8.mp3
+48.5
+51
+That sounds like a lot of fun
+@@@
+23
+Arts and Crafts Class
+9
+Resources/Audio/23_ArtsandCraftsClass_9.mp3
+51
+58.8
+Yeah Tom made a bead necklace for his sister and I made some earrings
+@@@
+23
+Arts and Crafts Class
+10
+Resources/Audio/23_ArtsandCraftsClass_10.mp3
+58.8
+63.7
+Guess what Mom I made a pair of earrings for you too
+@@@
+23
+Arts and Crafts Class
+11
+Resources/Audio/23_ArtsandCraftsClass_11.mp3
+63.7
+69
+Oh these are very pretty Thank you very much
+@@@
+23
+Arts and Crafts Class
+12
+Resources/Audio/23_ArtsandCraftsClass_12.mp3
+68.5
+72
+Next week I'm going to make a necklace
+@@@
+24
+Grandfather's Birthday
+0
+Resources/Audio/24_Grandfather'sBirthday_0.mp3
+4
+13
+Hi Mom Guess what We got our English test back today I got the highest score in my class
+@@@
+24
+Grandfather's Birthday
+1
+Resources/Audio/24_Grandfather'sBirthday_1.mp3
+13
+18.5
+Oh Billy I'm glad you did so well You worked hard for that test
+@@@
+24
+Grandfather's Birthday
+2
+Resources/Audio/24_Grandfather'sBirthday_2.mp3
+18.5
+22.2
+Thanks Mom I'm hungry What's for dinner
+@@@
+24
+Grandfather's Birthday
+3
+Resources/Audio/24_Grandfather'sBirthday_3.mp3
+22.2
+29
+We're going to your aunt's place for dinner tonight It's your grandfather's birthday today remember
+@@@
+24
+Grandfather's Birthday
+4
+Resources/Audio/24_Grandfather'sBirthday_4.mp3
+29
+35.5
+Oh no I forgot I haven't got a birthday gift for Grandpa
+@@@
+24
+Grandfather's Birthday
+5
+Resources/Audio/24_Grandfather'sBirthday_5.mp3
+35
+39.8
+Don't worry I bought a gift for him yesterday from the three of us
+@@@
+24
+Grandfather's Birthday
+6
+Resources/Audio/24_Grandfather'sBirthday_6.mp3
+39.8
+45
+Anyway your English test score is a good gift for your grandfather
+@@@
+24
+Grandfather's Birthday
+7
+Resources/Audio/24_Grandfather'sBirthday_7.mp3
+45
+51
+The whole family will be at the party tonight All your aunts uncles and cousins are coming
+@@@
+24
+Grandfather's Birthday
+8
+Resources/Audio/24_Grandfather'sBirthday_8.mp3
+51
+55
+I haven't seen the whole family in a long time
+@@@
+24
+Grandfather's Birthday
+9
+Resources/Audio/24_Grandfather'sBirthday_9.mp3
+55
+59
+Well you'll see them tonight Now hurry up and get ready
+@@@
+24
+Grandfather's Birthday
+10
+Resources/Audio/24_Grandfather'sBirthday_10.mp3
+59
+61.5
+OK When are we leaving
+@@@
+24
+Grandfather's Birthday
+11
+Resources/Audio/24_Grandfather'sBirthday_11.mp3
+61.5
+64.5
+When your father gets home from work
+@@@
+25
+The Lesson
+0
+Resources/Audio/25_TheLesson_0.mp3
+3
+8
+There was once a man who lived with his two sons
+@@@
+25
+The Lesson
+1
+Resources/Audio/25_TheLesson_1.mp3
+8
+11.5
+The two sons were always fighting with each other
+@@@
+25
+The Lesson
+2
+Resources/Audio/25_TheLesson_2.mp3
+11.7
+17.2
+One day the man decided to teach his sons a lesson
+@@@
+25
+The Lesson
+3
+Resources/Audio/25_TheLesson_3.mp3
+17
+22
+The man gave his younger son two large sticks
+@@@
+25
+The Lesson
+4
+Resources/Audio/25_TheLesson_4.mp3
+22
+29.5
+He told the boy to break them The boy tried hard but he could not break the sticks
+@@@
+25
+The Lesson
+5
+Resources/Audio/25_TheLesson_5.mp3
+29.5
+35
+The older son also could not break the sticks
+@@@
+25
+The Lesson
+6
+Resources/Audio/25_TheLesson_6.mp3
+35
+40
+At last the man gave only one stick to each son
+@@@
+25
+The Lesson
+7
+Resources/Audio/25_TheLesson_7.mp3
+40
+46
+He said Break them Each son broke his stick easily
+@@@
+25
+The Lesson
+8
+Resources/Audio/25_TheLesson_8.mp3
+46
+54.2
+The man said You are like these sticks If you work together no one can break you
+@@@
+25
+The Lesson
+9
+Resources/Audio/25_TheLesson_9.mp3
+54
+62
+But if you fight with each other all the time one day someone will break both of you
+@@@
+25
+The Lesson
+10
+Resources/Audio/25_TheLesson_10.mp3
+62
+68.5
+After that lesson the sons stopped fighting They started to work together
+@@@
+26
+A Problem at the Office
+0
+Resources/Audio/26_AProblemattheOffice_0.mp3
+8
+13.2
+I had a big problem at the office today
+@@@
+26
+A Problem at the Office
+1
+Resources/Audio/26_AProblemattheOffice_1.mp3
+13.2
+14.7
+What happened
+@@@
+26
+A Problem at the Office
+2
+Resources/Audio/26_AProblemattheOffice_2.mp3
+14.7
+18
+I could not use my computer all day
+@@@
+26
+A Problem at the Office
+3
+Resources/Audio/26_AProblemattheOffice_3.mp3
+18
+20.2
+Was it because of a virus
+@@@
+26
+A Problem at the Office
+4
+Resources/Audio/26_AProblemattheOffice_4.mp3
+20.2
+24
+Yes I opened a file that had a virus
+@@@
+26
+A Problem at the Office
+5
+Resources/Audio/26_AProblemattheOffice_5.mp3
+24.2
+30.8
+Oh no You must be careful when you open files in your email
+@@@
+26
+A Problem at the Office
+6
+Resources/Audio/26_AProblemattheOffice_6.mp3
+30.8
+35
+A virus can make your whole computer crash
+@@@
+26
+A Problem at the Office
+7
+Resources/Audio/26_AProblemattheOffice_7.mp3
+35
+42.8
+It was an accident I didn't know the file had a virus I'll be more careful next time
+@@@
+26
+A Problem at the Office
+8
+Resources/Audio/26_AProblemattheOffice_8.mp3
+42.8
+44.5
+What did you do next
+@@@
+26
+A Problem at the Office
+9
+Resources/Audio/26_AProblemattheOffice_9.mp3
+44.2
+48.2
+I asked a computer repairman to come to the office
+@@@
+26
+A Problem at the Office
+10
+Resources/Audio/26_AProblemattheOffice_10.mp3
+48.2
+56.2
+He worked all day to repair my computer But the real problem is that I may have lost some of my work
+@@@
+26
+A Problem at the Office
+11
+Resources/Audio/26_AProblemattheOffice_11.mp3
+56.2
+63.2
+Don't worry Your work is probably still on your computer I can help you get it back
+@@@
+26
+A Problem at the Office
+12
+Resources/Audio/26_AProblemattheOffice_12.mp3
+63.2
+70
+Next time make sure you have back up files Just in case it happens again
+@@@
+27
+My Future Job
+0
+Resources/Audio/27_MyFutureJob_0.mp3
+4
+8.5
+What do you want to be when you grow up Mark
+@@@
+27
+My Future Job
+1
+Resources/Audio/27_MyFutureJob_1.mp3
+8.5
+14.5
+I want to be a teacher I think I would like to help children learn
+@@@
+27
+My Future Job
+2
+Resources/Audio/27_MyFutureJob_2.mp3
+14
+20
+Well you know teachers work very hard and they are not paid much money
+@@@
+27
+My Future Job
+3
+Resources/Audio/27_MyFutureJob_3.mp3
+20
+25
+I don't care about money Teaching is an important job
+@@@
+27
+My Future Job
+4
+Resources/Audio/27_MyFutureJob_4.mp3
+25.5
+28
+What subject do you want to teach
+@@@
+27
+My Future Job
+5
+Resources/Audio/27_MyFutureJob_5.mp3
+28
+34.2
+I want to teach mathematics like Ms Kim She makes learning fun
+@@@
+27
+My Future Job
+6
+Resources/Audio/27_MyFutureJob_6.mp3
+34.2
+40
+I didn't know that I would like math so much until I joined her class
+@@@
+27
+My Future Job
+7
+Resources/Audio/27_MyFutureJob_7.mp3
+40
+43.5
+Now mathematics is my favorite subject
+@@@
+27
+My Future Job
+8
+Resources/Audio/27_MyFutureJob_8.mp3
+43.5
+49
+If you want to teach math you'll have to work hard and learn it well
+@@@
+27
+My Future Job
+9
+Resources/Audio/27_MyFutureJob_9.mp3
+49.5
+55
+No problem I got an A on the mathematics examination last week
+@@@
+27
+My Future Job
+10
+Resources/Audio/27_MyFutureJob_10.mp3
+55
+59.7
+With good teachers like Ms Kim learning is easy
+@@@
+27
+My Future Job
+11
+Resources/Audio/27_MyFutureJob_11.mp3
+59.7
+66
+I want to be a teacher too But I want to teach English not math
+@@@
+28
+Shopping
+0
+Resources/Audio/28_Shopping_0.mp3
+3
+11.2
+We are having a summer sale Everything is fifty percent off the normal price
+@@@
+28
+Shopping
+1
+Resources/Audio/28_Shopping_1.mp3
+10.5
+12.6
+Really Everything
+@@@
+28
+Shopping
+2
+Resources/Audio/28_Shopping_2.mp3
+12.6
+19.4
+Yes Everything is on sale including sunglasses hats and bags
+@@@
+28
+Shopping
+3
+Resources/Audio/28_Shopping_3.mp3
+19.6
+23
+All the summer clothes are on sale too
+@@@
+28
+Shopping
+4
+Resources/Audio/28_Shopping_4.mp3
+23
+30.2
+I do need some new sunglasses I lost mine when I went to the beach this summer
+@@@
+28
+Shopping
+5
+Resources/Audio/28_Shopping_5.mp3
+30.2
+36.5
+Oh these are really nice What is the price of these There is no price tag on them
+@@@
+28
+Shopping
+6
+Resources/Audio/28_Shopping_6.mp3
+36.5
+42.5
+Well sir there's no price tag on those sunglasses because they are mine
+@@@
+28
+Shopping
+7
+Resources/Audio/28_Shopping_7.mp3
+42.5
+49
+Really I would like to get a pair of sunglasses just like these Where did you get them
+@@@
+28
+Shopping
+8
+Resources/Audio/28_Shopping_8.mp3
+49.5
+54.5
+Actually I got them for fifteen dollar at Super Glasses
+@@@
+28
+Shopping
+9
+Resources/Audio/28_Shopping_9.mp3
+54.2
+58.2
+There is a Super Glasses store in this mall isn't there
+@@@
+28
+Shopping
+10
+Resources/Audio/28_Shopping_10.mp3
+58.2
+63.2
+Yes but let me show you the sunglasses we have on sale
+@@@
+28
+Shopping
+11
+Resources/Audio/28_Shopping_11.mp3
+58.2
+63.2
+No thanks I think I'll just go to Super Glasses
+@@@
+29
+A Part Time Job
+0
+Resources/Audio/29_APartTimeJob_0.mp3
+4
+12
+I want to find a part time job Do you have any ideas about where I should look for work
+@@@
+29
+A Part Time Job
+1
+Resources/Audio/29_APartTimeJob_1.mp3
+12
+18.5
+Have you looked in the newspaper There are lots of job advertisements in the newspaper
+@@@
+29
+A Part Time Job
+2
+Resources/Audio/29_APartTimeJob_2.mp3
+18.5
+23.4
+Yes I have But there were no jobs I was interested in
+@@@
+29
+A Part Time Job
+3
+Resources/Audio/29_APartTimeJob_3.mp3
+23.4
+30
+Did you search on the Internet Many companies put job advertisements on the Internet
+@@@
+29
+A Part Time Job
+4
+Resources/Audio/29_APartTimeJob_4.mp3
+30
+36
+No I haven't looked on the Internet I don't know what I should search for
+@@@
+29
+A Part Time Job
+5
+Resources/Audio/29_APartTimeJob_5.mp3
+36
+41.5
+There are many websites that have job postings that you could look at
+@@@
+29
+A Part Time Job
+6
+Resources/Audio/29_APartTimeJob_6.mp3
+41.5
+45.7
+You could also search for the type of job you are interested in
+@@@
+29
+A Part Time Job
+6
+Resources/Audio/29_APartTimeJob_6.mp3
+41.2
+45.7
+You could also search for the type of job you are interested in
+@@@
+29
+A Part Time Job
+7
+Resources/Audio/29_APartTimeJob_7.mp3
+45.7
+52.7
+OK Thanks for telling me what I need to do I'll start my Internet search right now
+@@@
+29
+A Part Time Job
+8
+Resources/Audio/29_APartTimeJob_8.mp3
+52.7
+58.5
+I have a list of some websites You could start looking at those first
+@@@
+29
+A Part Time Job
+9
+Resources/Audio/29_APartTimeJob_9.mp3
+58.5
+61
+That might save you some time
+@@@
+29
+A Part Time Job
+10
+Resources/Audio/29_APartTimeJob_10.mp3
+61
+64.5
+That would be very useful Thanks
+@@@
+30
+Teamwork
+0
+Resources/Audio/30_Teamwork_0.mp3
+3
+9
+When people work together as a team they can achieve a lot
+@@@
+30
+Teamwork
+1
+Resources/Audio/30_Teamwork_1.mp3
+9
+13.5
+You can easily get things done when you share the work
+@@@
+30
+Teamwork
+2
+Resources/Audio/30_Teamwork_2.mp3
+13.5
+16.5
+We practice teamwork in my family Both my parents have jobs
+@@@
+30
+Teamwork
+2
+Resources/Audio/30_Teamwork_2.mp3
+13.5
+16.5
+We practice teamwork in my family
+@@@
+30
+Teamwork
+3
+Resources/Audio/30_Teamwork_3.mp3
+16.5
+23.7
+Both my parents have jobs My father is a doctor My mother is a teacher
+@@@
+30
+Teamwork
+4
+Resources/Audio/30_Teamwork_4.mp3
+23.7
+27
+Both of them work long hours all week
+@@@
+30
+Teamwork
+5
+Resources/Audio/30_Teamwork_5.mp3
+27
+32
+My brother is a student at college I am a student in school
+@@@
+30
+Teamwork
+6
+Resources/Audio/30_Teamwork_6.mp3
+32
+35.5
+We all have very busy lives
+@@@
+30
+Teamwork
+7
+Resources/Audio/30_Teamwork_7.mp3
+35
+40.5
+So when it comes to household chores we all work together to get them done
+@@@
+30
+Teamwork
+8
+Resources/Audio/30_Teamwork_8.mp3
+40.5
+46
+Each of us has different chores My parents take turns to cook
+@@@
+30
+Teamwork
+9
+Resources/Audio/30_Teamwork_9.mp3
+46
+51.2
+My father takes out the trash My mother does the laundry
+@@@
+30
+Teamwork
+10
+Resources/Audio/30_Teamwork_10.mp3
+51
+55
+My brother washes the dishes I sweep the floor
+@@@
+30
+Teamwork
+11
+Resources/Audio/30_Teamwork_11.mp3
+55
+61
+We share the chores and work together Everything gets done fast
+@@@
+30
+Teamwork
+12
+Resources/Audio/30_Teamwork_12.mp3
+61
+66.2
+People should practice working as a team Teamwork works
+@@@
+31
+The Marathon
+0
+Resources/Audio/31_TheMarathon_0.mp3
+6.5
+10.2
+Did you watch the Boston marathon
+@@@
+31
+The Marathon
+1
+Resources/Audio/31_TheMarathon_1.mp3
+10.2
+13
+Yes I went to Boston to see it
+@@@
+31
+The Marathon
+2
+Resources/Audio/31_TheMarathon_2.mp3
+13
+16
+You were in Boston for the marathon
+@@@
+31
+The Marathon
+3
+Resources/Audio/31_TheMarathon_3.mp3
+15.8
+20.5
+That's right My friend is a runner so I went there to watch her run
+@@@
+31
+The Marathon
+4
+Resources/Audio/31_TheMarathon_4.mp3
+20.8
+23
+We traveled to Boston together
+@@@
+31
+The Marathon
+5
+Resources/Audio/31_TheMarathon_5.mp3
+23
+28
+You are so lucky Which part of the marathon did you see
+@@@
+31
+The Marathon
+6
+Resources/Audio/31_TheMarathon_6.mp3
+27.5
+31.2
+I watched the entire race from start to finish
+@@@
+31
+The Marathon
+7
+Resources/Audio/31_TheMarathon_7.mp3
+31.4
+35.5
+I don't know how the runners can finish the whole race
+@@@
+31
+The Marathon
+8
+Resources/Audio/31_TheMarathon_8.mp3
+35.5
+41
+It's so long and difficult I could never do something like that
+@@@
+31
+The Marathon
+9
+Resources/Audio/31_TheMarathon_9.mp3
+41
+46
+I tried to run a marathon once It was really difficult
+@@@
+31
+The Marathon
+10
+Resources/Audio/31_TheMarathon_10.mp3
+46
+49
+I just can't run like my friend can
+@@@
+31
+The Marathon
+11
+Resources/Audio/31_TheMarathon_11.mp3
+48.9
+53.2
+Yes running a marathon is not an easy thing to do
+@@@
+31
+The Marathon
+12
+Resources/Audio/31_TheMarathon_12.mp3
+53.5
+57.8
+By the way how did your friend do in the race
+@@@
+31
+The Marathon
+13
+Resources/Audio/31_TheMarathon_13.mp3
+57.8
+65
+She did quite well She was not the fastest runner but she was in the top fifty
 @@@

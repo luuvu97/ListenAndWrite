@@ -5,8 +5,9 @@
 
 ProgressBar.prototype.showProgress = function (curPoint, maxPoint) {
     this.show();
-    this.progressBar.style.width = 100 * (curPoint / maxPoint) + "%";
-    this.progressText.innerText = curPoint + " / " + maxPoint;
+    this.progressBar.style.width = (100 * (curPoint / maxPoint)).toFixed(2) + "%";
+    this.progressBar.innerText = (100 * (curPoint / maxPoint)).toFixed(2) + "%";
+    this.progressText.innerText = curPoint.toFixed(2) + " / " + maxPoint.toFixed(2);
 }
 
 ProgressBar.prototype.show = function () {

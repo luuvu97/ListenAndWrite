@@ -16,17 +16,17 @@ namespace ListenAndWrite.Logic
                 ).OrderByDescending(s => s.NearestDateWithBestScore).Select(s => s.NearestDateWithBestScore).Distinct().Take(numOfDate).ToList();
             return db.Scores.Where(
                 s => s.MemberID == userID && s.TestType == testType && listDate.Contains(s.NearestDateWithBestScore)
-                ).ToList();
+                ).OrderBy(s => s.NearestDateWithBestScore).ToList();
         }
 
         public static List<DatePoint> GetLastDatePoint(string userID, TestType testType, int numOfDate = 3)
         {
             List<DatePoint> list = new List<DatePoint>();
-            List<Score> listScore = GetLastScores(userID, testType);
+            List<Score> listScore = GetLastScores(userID, testType, numOfDate);
             for (int i = 0; i < listScore.Count; i++)
             {
                 int level = listScore[i].Lesson.Level;
-                int index = GetElementLevelIndex(list, level);
+                int index = GetElementLevelIndex(list, level, listScore[i].NearestDateWithBestScore);
                 Double score = TestAction.CalculateTotalScore(listScore[i].MaxScore);
                 if (index == -1)
                 {
@@ -40,11 +40,11 @@ namespace ListenAndWrite.Logic
             return list;
         }
 
-        public static int GetElementLevelIndex(List<DatePoint> list, int level)
+        public static int GetElementLevelIndex(List<DatePoint> list, int level, DateTime date)
         {
             for (int i = 0; i < list.Count; i++)
             {
-                if (list[i].level == level)
+                if (list[i].level == level && list[i].date == date)
                 {
                     return i;
                 }
@@ -83,6 +83,10 @@ namespace ListenAndWrite.Logic
                 m => m.UserName == username
                 );
             member.Point += offset;
+            if (member.Point > (member.ListeningLevel * 3000) && member.ListeningLevel < ModelsContent.MAX_LEVEL)
+            {
+                member.ListeningLevel += 1;
+            }
             db.SaveChanges();
         }
     }

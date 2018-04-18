@@ -20,9 +20,10 @@ namespace ListenAndWrite
         {
             if (Session["lessonID"] != null)
             {
-                this.lessonID = Int16.Parse(Session["lessonID"].ToString());
+                this.lessonID = Int32.Parse(Session["lessonID"].ToString());
                 this.lesson = ModelControl.GetLessionByID(this.lessonID);
                 txtTitle.Text = this.lesson.Title;
+                txtDescription.Text = this.lesson.Description;
                 lblLenght.Text = this.lesson.Length.ToString();
                 this.BindListTrack();
             }
@@ -91,6 +92,16 @@ namespace ListenAndWrite
                 return this.lesson.LessonCategory;
             }
             return null;
+        }
+
+        protected void btnRemoveTrack_Click(object sender, EventArgs e)
+        {
+            int id = Int32.Parse(txtRemoveTrackID.Value);
+            double len = Double.Parse(txtRemoveTrackLength.Value);
+            ModelControl.removeTrack(id);
+            ModelControl.updateLength(this.lessonID, 0 - len);
+            this.GetData();
+            _ViewTrack.DataBind();
         }
     }
 }

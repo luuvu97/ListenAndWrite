@@ -69,16 +69,25 @@ namespace ListenAndWrite.Logic
             return list;
         }
 
-        public static List<ScoreNode> GenScoreNode(List<Score> scores, double maxPoint)
+        public static List<ScoreNode> GenScoreNode(List<Score> scores, double maxPointFullMode, double maxPointNewMode)
         {
             List<ScoreNode> list = new List<ScoreNode>();
             for (int i = 0; i < scores.Count; i++)
             {
+                double maxScore = 0;
+                if (scores[i].TestType == TestType.FullMode)
+                {
+                    maxScore = maxPointFullMode;
+                }
+                else
+                {
+                    maxScore = maxPointNewMode;
+                }
                 list.Add(new ScoreNode
                 {
                     testType = ModelControl.TestTypeToString(scores[i].TestType),
                     totalScore = TestAction.CalculateTotalScore(scores[i].MaxScore),
-                    maxScore = maxPoint,
+                    maxScore = maxScore,
                 });
             }
             return list;
@@ -137,7 +146,7 @@ namespace ListenAndWrite.Logic
                     str = str.Replace(ch, ' ');
                 }
             }
-
+            str = str.Trim();
             bool flag = true;
             while (flag)
             {
@@ -153,6 +162,39 @@ namespace ListenAndWrite.Logic
             }
 
             return str;
+        }
+
+        public static void IncreaseViewCount(int lessonID)
+        {
+            using (var db = new ModelsContent())
+            {
+                var lesson = db.Lessons.SingleOrDefault(l => l.LessonID == lessonID);
+                if (lesson != null)
+                {
+                    lesson.ViewCount += 1;
+                    db.SaveChanges();
+                }
+            }
+        }
+
+        public static void updateLength(int lessonID, double offset)
+        {
+            using (var db = new ModelsContent())
+            {
+                var lesson = db.Lessons.SingleOrDefault(l => l.LessonID == lessonID);
+                lesson.Length += offset;
+                db.SaveChanges();
+            }
+        }
+
+        public static void removeTrack(int trackID){
+            using (var db = new ModelsContent())
+            {
+                var track = new Track { TrackID = trackID };
+                db.Tracks.Attach(track);
+                db.Tracks.Remove(track);
+                db.SaveChanges();
+            }
         }
     }
 }
