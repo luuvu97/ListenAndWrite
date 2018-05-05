@@ -54,11 +54,14 @@ CompactString.prototype.getCompactWord = function (inp) {
     return inp;
 }
 
-CompactString.prototype.compactString1 = function (inp) {
+//input a string then the output is another string be compact from input string
+CompactString.prototype.compactString = function (inp) {
     var script = inp;
     var tmp = script;
     var arr = script.split(" ");
-
+    if (arr.length == 1) {
+        return script;
+    }
     var ret = "";
     for (var i = 0; i < arr.length - 1; i++) {
         var str = arr[i] + " " + arr[i + 1];
@@ -79,30 +82,32 @@ CompactString.prototype.compactString1 = function (inp) {
             i++;
         }
     }
-    console.log(ret);
+    //console.log(ret);
     return ret;
 }
 
 
-CompactString.prototype.compactString = function(inp){
-    var script = inp;
-    var tmp;
-    while(true){
-        tmp = script;
-        for(var e in this){
-            if(this.hasOwnProperty(e)){
-                script = script.replace(this[e], e.replace("_", "'"));
-                //if don't have " " (space) in front and rear => "care not" be replaced by "are not" and return wrong answer "caren't"
-            }
-        }
-        if(tmp == script){
-            break;
-        }
-    }
-    //console.log("Compact string: inp -- out: " + script);
-    return script;
-}
+//CompactString.prototype.compactString1 = function(inp){
+//    var script = inp;
+//    var tmp;
+//    while(true){
+//        tmp = script;
+//        for(var e in this){
+//            if(this.hasOwnProperty(e)){
+//                script = script.replace(this[e], e.replace("_", "'"));
+//                //if don't have " " (space) in front and rear => "care not" be replaced by "are not" and return wrong answer "caren't"
+//            }
+//        }
+//        if(tmp == script){
+//            break;
+//        }
+//    }
+//    //console.log("Compact string: inp -- out: " + script);
+//    return script;
+//}
 
+//parese a string into an array of string
+//ex "i am vu" => compact string "i'm vu" => array of string [ ["i'm", "i am"], ["vu"]];
 CompactString.prototype.parseScript = function(inp){
     inp = inp.toLowerCase();
     inp = this.compactString(inp);

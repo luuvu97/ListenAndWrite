@@ -1,0 +1,15 @@
+Thành viên nhóm: Lưu Văn Vũ, Chu Văn Cường, Vũ Hồng Thắng
+
+
+
+cũng dùng asp.net. Đã demo thống kê lịch sử hoạt động của người dùng theo các level.
+Có chức năng preview(nghe trước) bài nghe mà không cần phải click để chuyển vào bài nghe (Rất hữu ích, tiện lợi)
+hiện tại chưa có mode nào cả mặc dù đã có giao diện để người dùng gõ chữ vào.
+Hiện tại client vẫn phải gửi dữ liệu lên để server xử lý.  rồi server lại gửi về.
+Cách đấy không tối ưu, tốt nhất là khi vào một bài nghe thì server gửi toàn bộ nội dung cho client rồi dùng javascript để kiểm tra từ
+Hiện tại đã phát được bài nghe, chuyển track nhưng các dữ liệu vẫn là fake.
+
+trong quá trình tới:
+Cần phải hoàn thiện chức năng search. Giả sử người dùng gõ 3 từ nhưng các bài nghe chỉ có nhiều nhất 2 từ trong số đó
+=> Hệ thống vẫn phải trả về các kết quả theo một thứ tự ưu tiên nào đó.
+Nếu tiếp tục giữ vững tiến độ này thì có thể kết quả tốt hơn nhóm của Tân, Thái, Bình
