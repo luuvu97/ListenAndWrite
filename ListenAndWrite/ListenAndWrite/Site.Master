@@ -63,7 +63,7 @@
                     <div class="logo-search">
                         <div class="logo">
                             <h1>
-                                <a href="Default.aspx">Listen<span class="color">And</span><span class="color1"></span><span class="color2">Write</span>
+                                <a href="../Default.aspx">Listen<span class="color">And</span><span class="color1"></span><span class="color2">Write</span>
                                     <i>Best for practice English</i>
                                 </a>
                             </h1>
@@ -79,7 +79,7 @@
                     <%--nav--%>
                     <div class="navigation">
                         <div class="topnav">
-                            <a href="Default.aspx">Home</a>
+                            <a href="../Default.aspx">Home</a>
                             <a href="#">Levels</a>
                             <a href="#">Youtube</a>
                             <a href="#">LevelTest</a>

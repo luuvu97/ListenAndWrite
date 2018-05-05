@@ -87,8 +87,8 @@ namespace ListenAndWrite
 
         public IQueryable<Category> _ViewTags_GetData()
         {
-            var _db = new ModelsContent();
-            return _db.Categories.OrderByDescending(c => c.LessonCategories.Count).Take(20);
+            var db = new ModelsContent();
+            return db.Categories.OrderByDescending(c => c.LessonCategories.Count).Take(10);
         }
 
         // The id parameter should match the DataKeyNames value set on the control

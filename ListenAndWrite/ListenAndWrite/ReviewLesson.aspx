@@ -11,11 +11,11 @@
 
         <ItemTemplate>
             <a href="Listening.aspx?LessonID=<%#: Item.LessonID %>"><h1><b><%#: Item.Title %></b></h1></a>
-            Provider: <%#: Item.Provider.UserName %>
+            <b>Provider:</b> <%#: Item.Provider.UserName %>
             <br />
-            <%#: Item.Tracks.Count %> Part
+            <b><%#: Item.Tracks.Count %> Part</b>
             <br />
-            Description : <%#: Item.Description %>
+            <b>Description :</b> <%#: Item.Description %>
         </ItemTemplate>
     </asp:FormView>
 
@@ -51,6 +51,9 @@
         </ItemTemplate>
     </asp:ListView>
     <%-- BRIEF INFO AUBOUT EACH TEST TYPE --%>
+
+    <br />
+    <input type="button" id="btnShowDetail" value="Show Detail Information" />
 
     <%-- Detail about each test type. It will hide when the user want --%>
     <div id="divDetail">
@@ -174,6 +177,20 @@
     <br>
 
     <script>
+        var isShowDeatil = false;
+        document.getElementById("divDetail").style.display = "none";
+        document.getElementById("btnShowDetail").onclick = function(){
+            if(isShowDeatil == true){
+                document.getElementById("btnShowDetail").value = "Show Detail Information";
+                document.getElementById("divDetail").style.display = "none";
+                isShowDeatil = false;
+            }else{
+                document.getElementById("btnShowDetail").value = "Hide Information";
+                document.getElementById("divDetail").style.display = "block";
+                isShowDeatil = true;
+            }
+        }
+
         var index = 1;
         showSlides(index);
 

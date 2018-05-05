@@ -1,4 +1,9 @@
-function CompactString(){
+function CompactString() {
+    this.i_ll = "i will",
+    this.he_ll =  "he will",
+    this.she_ll = "she will",
+    this.we_ll = "we will",
+    this.they_ll = "he will",
     this.didn_t = "did not",
     this.don_t = "do not",
     this.doesn_t = "does not",
@@ -16,7 +21,13 @@ function CompactString(){
     this.wouldn_t = "would not",
     this.mightn_t = "might not",
     this.mayn_t = "may not",
-    this.i_m = "i am"
+    this.i_m = "i am",
+    this.there_re = "there are",
+    this.they_re = "they are",
+    this.we_re = "we are",
+    this.you_re = "you are",
+    this.i_ve = "i have",
+    this.we_ve = "we have"
 }
 
 CompactString.prototype.parseWord = function(inp){
@@ -33,6 +44,46 @@ CompactString.prototype.parseWord = function(inp){
     return ret;
 }
 
+CompactString.prototype.getCompactWord = function (inp) {
+    //return the word in compact mode if the word can be write in compact type
+    for (var e in this) {
+        if (this[e] == inp) {
+            return e.replace("_", "'");
+        }
+    }
+    return inp;
+}
+
+CompactString.prototype.compactString1 = function (inp) {
+    var script = inp;
+    var tmp = script;
+    var arr = script.split(" ");
+
+    var ret = "";
+    for (var i = 0; i < arr.length - 1; i++) {
+        var str = arr[i] + " " + arr[i + 1];
+        var tmp = this.getCompactWord(str);
+        if (tmp == str) {
+            ret += arr[i] + " ";
+            if (i == arr.length - 2) {
+                ret += arr[arr.length - 1];
+            }
+        } else {
+            ret += tmp;
+            if (i != arr.length - 2) {
+                ret += " ";
+            }
+            if (i == arr.length - 3) {
+                ret += arr[arr.length - 1];
+            }
+            i++;
+        }
+    }
+    console.log(ret);
+    return ret;
+}
+
+
 CompactString.prototype.compactString = function(inp){
     var script = inp;
     var tmp;
@@ -41,6 +92,7 @@ CompactString.prototype.compactString = function(inp){
         for(var e in this){
             if(this.hasOwnProperty(e)){
                 script = script.replace(this[e], e.replace("_", "'"));
+                //if don't have " " (space) in front and rear => "care not" be replaced by "are not" and return wrong answer "caren't"
             }
         }
         if(tmp == script){

@@ -121,7 +121,7 @@ namespace ListenAndWrite
 
             if (!String.IsNullOrEmpty(this.searchText))
             {
-                return _db.Lessons.Where(l => l.Title.Contains(this.searchText)).OrderByDescending(l => l.ViewCount);
+                return _db.Lessons.Where(l => l.Title.Contains(this.searchText) && l.Tracks.Count > 0).OrderByDescending(l => l.ViewCount);
             }
 
             if (this.quickAccess == QuickAccess.QuickChoose)

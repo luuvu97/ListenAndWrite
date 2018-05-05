@@ -111,7 +111,6 @@
         scripts = scripts.split(";");
         audioPaths = audioPaths.split(";");
         var testType = document.getElementById(PRENAME + "txtTestType").value;
-        console.log(testType);
 
         var chooseDiv = new ChooseDiv("btnComplete", "btnChooseNext", "btnChooseListenAgain")
         var progressBar = new ProgressBar("myBar", "progressText");
@@ -123,21 +122,25 @@
         document.getElementById(PRENAME + "txtInput").onkeyup = function(){
             setTimeout(function(){
                 lessonAction.processUserInput(document.getElementById(PRENAME + "txtInput").value);
-                document.getElementById("txtHint").innerText = lessonAction.hint;
+                //document.getElementById("txtHint").innerText = lessonAction.hint;
             },50)
         }
 
         document.getElementById("btnPrev").onclick = function(){
             lessonAction.prevTrack();
+            lessonAction.showHint();
         }
         document.getElementById("btnNext").onclick = function(){
             lessonAction.nextTrack();
+            lessonAction.showHint();
         }
         document.getElementById("btnChooseNext").onclick = function(){
             lessonAction.nextTrack();
+            lessonAction.showHint();
         }
         document.getElementById("btnChooseListenAgain").onclick = function(){
             lessonAction.replay();
+            lessonAction.showHint();
         }
         document.getElementById("btnComplete").onclick = function(){
             window.location = "ReviewLesson.aspx?LessonID=" + <%: this.lesson.LessonID %>;
@@ -149,7 +152,7 @@
                 showHint = true;
                 document.getElementById("hint").style.display = "Block";
                 document.getElementById("btnHint").value = "Hide hint";
-                document.getElementById("txtHint").innerText = lessonAction.hint;
+                lessonAction.showHint();
             }else{
                 showHint = false;
                 document.getElementById("hint").style.display = "None";

@@ -25,8 +25,11 @@ function LessonAction(level, rawScripts, audioPaths, controlElement, testType) {
     for (var i = 0; i < this.pointTrack.length; i++) {
         this.pointTrack[i] = 0;
     }
+}
 
+LessonAction.prototype.showHint = function () {
     this.getHint();
+    document.getElementById("txtHint").innerText = this.hint;
 }
 
 LessonAction.prototype.getHint = function () {
@@ -55,7 +58,7 @@ LessonAction.prototype.processUserInput = function (userInput) {
             this.controlElement.chooseDiv.show(this.isEnd);
             this.controlElement.showProgress(this.pointTrack[this.currentPart], this.maxTrackPoint);
         }
-        this.getHint();
+        this.showHint();
     }
 }
 
@@ -68,6 +71,7 @@ LessonAction.prototype.nextTrack = function () {
         this.controlElement.emptyViewText();
     }
     this.controlElement.lblPart.innerText = (this.currentPart + 1);
+    this.showHint();
 }
 
 LessonAction.prototype.isNextTrack = function () {
@@ -91,6 +95,7 @@ LessonAction.prototype.prevTrack = function () {
         this.controlElement.progressBar.hide();
         this.controlElement.emptyViewText();
         this.controlElement.lblPart.innerText = (this.currentPart + 1);
+        this.showHint();
     }
 }
 

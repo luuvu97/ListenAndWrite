@@ -12,8 +12,8 @@ namespace ListenAndWrite.Logic
         {
             var db = new ModelsContent();
             var listDate = db.Scores.Where(
-                s => s.MemberID == userID
-                ).OrderByDescending(s => s.NearestDateWithBestScore).Select(s => s.NearestDateWithBestScore).Distinct().Take(numOfDate).ToList();
+                s => s.MemberID == userID && s.TestType ==  testType
+                ).Select(s => s.NearestDateWithBestScore).Distinct().OrderByDescending(s => s).Take(numOfDate).ToList();
             return db.Scores.Where(
                 s => s.MemberID == userID && s.TestType == testType && listDate.Contains(s.NearestDateWithBestScore)
                 ).OrderBy(s => s.NearestDateWithBestScore).ToList();

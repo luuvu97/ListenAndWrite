@@ -131,6 +131,8 @@ TrackAction.prototype.standardized = function (strInp) {
     }
 
     strInp = this.cs.compactString(strInp);
-    strInp = strInp.split(" ");
+    if (this.cs.checkSplit(strInp, " ")) {
+        strInp = strInp.split(" ");
+    }
     return strInp;
 }

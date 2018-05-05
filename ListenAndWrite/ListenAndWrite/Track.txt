@@ -3254,3 +3254,971 @@ Resources/Audio/31_TheMarathon_13.mp3
 65
 She did quite well She was not the fastest runner but she was in the top fifty
 @@@
+32
+Racquetball
+0
+Resources/Audio/32_Racquetball_0.mp3
+3
+9.8
+Racquetball is a popular sport It was first played in the US
+@@@
+32
+Racquetball
+1
+Resources/Audio/32_Racquetball_1.mp3
+9.8
+14
+This game started just a little more than years ago
+@@@
+32
+Racquetball
+2
+Resources/Audio/32_Racquetball_2.mp3
+14
+18
+That makes it quite a new sport
+@@@
+32
+Racquetball
+3
+Resources/Audio/32_Racquetball_3.mp3
+17.8
+24
+Other racket sports like tennis and squash have been played for a long time
+@@@
+32
+Racquetball
+4
+Resources/Audio/32_Racquetball_4.mp3
+24
+30
+Racquetball rules are a mix of rules from both handball and squash
+@@@
+32
+Racquetball
+5
+Resources/Audio/32_Racquetball_5.mp3
+30
+34
+A short racket is used to play this game
+@@@
+32
+Racquetball
+6
+Resources/Audio/32_Racquetball_6.mp3
+34
+40
+This game became popular almost at once when it first came out
+@@@
+32
+Racquetball
+7
+Resources/Audio/32_Racquetball_7.mp3
+40
+47
+More and more people wanted to play it Clubs began to build racquetball courts
+@@@
+32
+Racquetball
+8
+Resources/Audio/32_Racquetball_8.mp3
+46.8
+51.2
+They built these courts for players of this new sport
+@@@
+32
+Racquetball
+9
+Resources/Audio/32_Racquetball_9.mp3
+51.2
+59
+People of all ages can play this game But most players today are young people
+@@@
+32
+Racquetball
+10
+Resources/Audio/32_Racquetball_10.mp3
+59
+64
+Most of them are between the ages of twelve and thirty four
+@@@
+32
+Racquetball
+11
+Resources/Audio/32_Racquetball_11.mp3
+64
+71.2
+Racquetball is now a famous sport It is played all over the world
+@@@
+33
+Summer Sports
+0
+Resources/Audio/33_SummerSports_0.mp3
+4
+8.8
+Hi Alice What have you been doing You look tired
+@@@
+33
+Summer Sports
+1
+Resources/Audio/33_SummerSports_1.mp3
+8.8
+13.2
+I stayed up late last night to watch the Olympics
+@@@
+33
+Summer Sports
+2
+Resources/Audio/33_SummerSports_2.mp3
+13.2
+17
+We won a gold medal for men's basketball
+@@@
+33
+Summer Sports
+3
+Resources/Audio/33_SummerSports_3.mp3
+17
+20.5
+We also won the silver medal for women's tennis
+@@@
+33
+Summer Sports
+4
+Resources/Audio/33_SummerSports_4.mp3
+20.2
+24
+That's great What about gymnastics
+@@@
+33
+Summer Sports
+5
+Resources/Audio/33_SummerSports_5.mp3
+24
+30.2
+The men's team didn't do so well But the women's team won the silver medal
+@@@
+33
+Summer Sports
+6
+Resources/Audio/33_SummerSports_6.mp3
+30.2
+35.8
+I haven't had much time to watch but I saw the opening ceremony
+@@@
+33
+Summer Sports
+7
+Resources/Audio/33_SummerSports_7.mp3
+35.8
+38
+What have you been doing this summer
+@@@
+33
+Summer Sports
+8
+Resources/Audio/33_SummerSports_8.mp3
+38.2
+42.2
+I've been playing baseball and taking swimming lessons
+@@@
+33
+Summer Sports
+9
+Resources/Audio/33_SummerSports_9.mp3
+42.4
+48.8
+I like to watch baseball Maybe I can come and watch your team play some time
+@@@
+33
+Summer Sports
+10
+Resources/Audio/33_SummerSports_10.mp3
+48.5
+50.5
+When do you usually play
+@@@
+33
+Summer Sports
+11
+Resources/Audio/33_SummerSports_11.mp3
+50.5
+56
+We have a game this weekend Why don't you come and watch us play in the park
+@@@
+33
+Summer Sports
+12
+Resources/Audio/33_SummerSports_12.mp3
+56.2
+62
+Sure Just let me know what time the game starts See you later
+@@@
+33
+Summer Sports
+13
+Resources/Audio/33_SummerSports_13.mp3
+62.2
+64
+Bye
+@@@
+34
+Inline Skating
+0
+Resources/Audio/34_InlineSkating_0.mp3
+4
+7
+Oh My legs are so sore
+@@@
+34
+Inline Skating
+1
+Resources/Audio/34_InlineSkating_1.mp3
+7.2
+10.8
+Really What did you do during the weekend
+@@@
+34
+Inline Skating
+2
+Resources/Audio/34_InlineSkating_2.mp3
+10.8
+15
+I went inline skating with my friends at the park
+@@@
+34
+Inline Skating
+3
+Resources/Audio/34_InlineSkating_3.mp3
+15
+17.2
+Did you have fun
+@@@
+34
+Inline Skating
+4
+Resources/Audio/34_InlineSkating_4.mp3
+17
+23
+Yes I did But it was also my first time so it was really difficult
+@@@
+34
+Inline Skating
+5
+Resources/Audio/34_InlineSkating_5.mp3
+23
+26
+I was scared that I would fall down
+@@@
+34
+Inline Skating
+6
+Resources/Audio/34_InlineSkating_6.mp3
+26
+31
+After a short time my muscles were really tired
+@@@
+34
+Inline Skating
+7
+Resources/Audio/34_InlineSkating_7.mp3
+31
+36
+Next time will be easier You just need more practice
+@@@
+34
+Inline Skating
+8
+Resources/Audio/34_InlineSkating_8.mp3
+36
+40.5
+What about you What did you do during the weekend
+@@@
+34
+Inline Skating
+9
+Resources/Audio/34_InlineSkating_9.mp3
+40.5
+46.5
+Actually I also went inline skating I go every weekend with my father
+@@@
+34
+Inline Skating
+10
+Resources/Audio/34_InlineSkating_10.mp3
+46.5
+50.8
+We usually skate about twenty kilometers each time
+@@@
+34
+Inline Skating
+11
+Resources/Audio/34_InlineSkating_11.mp3
+50.8
+58
+Wow How can you skate so far Your muscles must be really strong
+@@@
+34
+Inline Skating
+12
+Resources/Audio/34_InlineSkating_12.mp3
+58
+63.2
+I've been skating for three years now You could skate that far too
+@@@
+34
+Inline Skating
+13
+Resources/Audio/34_InlineSkating_13.mp3
+63.5
+69
+You just need to build up your muscles Let's go skating together next weekend
+@@@
+34
+Inline Skating
+14
+Resources/Audio/34_InlineSkating_14.mp3
+69.2
+71
+OK
+@@@
+35
+The Olympics
+0
+Resources/Audio/35_TheOlympics_0.mp3
+3.5
+9
+The Olympic Games are a famous world sports event
+@@@
+35
+The Olympics
+1
+Resources/Audio/35_TheOlympics_1.mp3
+8.6
+12.5
+These games are held once in four years
+@@@
+35
+The Olympics
+2
+Resources/Audio/35_TheOlympics_2.mp3
+12.5
+16
+There are summer games and winter games
+@@@
+35
+The Olympics
+3
+Resources/Audio/35_TheOlympics_3.mp3
+16
+21
+People come from countries all over the world to compete in the games
+@@@
+35
+The Olympics
+4
+Resources/Audio/35_TheOlympics_4.mp3
+21
+25.5
+These games started a long time ago in Greece
+@@@
+35
+The Olympics
+5
+Resources/Audio/35_TheOlympics_5.mp3
+25.7
+33
+In those days only men took part in them There were only a few sports events
+@@@
+35
+The Olympics
+6
+Resources/Audio/35_TheOlympics_6.mp3
+33
+37.5
+Now women take part in the Olympic Games too
+@@@
+35
+The Olympics
+7
+Resources/Audio/35_TheOlympics_7.mp3
+37.5
+44
+There are team sports like basketball There are martial arts like judo
+@@@
+35
+The Olympics
+8
+Resources/Audio/35_TheOlympics_8.mp3
+44.2
+50
+More and more types of sports are in the games each time they are held
+@@@
+35
+The Olympics
+9
+Resources/Audio/35_TheOlympics_9.mp3
+50
+55
+It is very hard to win a medal at these games
+@@@
+35
+The Olympics
+10
+Resources/Audio/35_TheOlympics_10.mp3
+55
+59.4
+Only world champions take part in the Olympics
+@@@
+35
+The Olympics
+11
+Resources/Audio/35_TheOlympics_11.mp3
+59.4
+67
+Those who compete must work hard for years Their bodies must be very fit
+@@@
+35
+The Olympics
+12
+Resources/Audio/35_TheOlympics_12.mp3
+67
+72
+They must be the best to win medals in these games
+@@@
+37
+A Bicycle Trip
+0
+Resources/Audio/37_ABicycleTrip_0.mp3
+7.5
+13.8
+I'm planning to go on a bicycle trip around Europe
+@@@
+37
+A Bicycle Trip
+1
+Resources/Audio/37_ABicycleTrip_1.mp3
+13
+16.5
+Why do you want to go on a bicycle trip
+@@@
+37
+A Bicycle Trip
+2
+Resources/Audio/37_ABicycleTrip_2.mp3
+16.5
+20
+It is an environmentally friendly way to travel
+@@@
+37
+A Bicycle Trip
+3
+Resources/Audio/37_ABicycleTrip_3.mp3
+20
+25
+What do you have to do in order to go on a bicycle trip
+@@@
+37
+A Bicycle Trip
+4
+Resources/Audio/37_ABicycleTrip_4.mp3
+25
+29.7
+Before the trip I'll need to ride my bicycle a lot
+@@@
+37
+A Bicycle Trip
+5
+Resources/Audio/37_ABicycleTrip_5.mp3
+29.7
+35.2
+That will make me fit and strong I also need to get some equipment
+@@@
+37
+A Bicycle Trip
+6
+Resources/Audio/37_ABicycleTrip_6.mp3
+35.2
+38
+What kind of equipment will you need
+@@@
+37
+A Bicycle Trip
+7
+Resources/Audio/37_ABicycleTrip_7.mp3
+38
+42
+I need road maps of the countries I am going to visit
+@@@
+37
+A Bicycle Trip
+8
+Resources/Audio/37_ABicycleTrip_8.mp3
+42
+46.5
+I also need strong bags to carry clothes and food
+@@@
+37
+A Bicycle Trip
+9
+Resources/Audio/37_ABicycleTrip_9.mp3
+46.2
+49.7
+I need to carry all these things on my bicycle
+@@@
+37
+A Bicycle Trip
+10
+Resources/Audio/37_ABicycleTrip_10.mp3
+50
+53
+Are you traveling with another person
+@@@
+37
+A Bicycle Trip
+11
+Resources/Audio/37_ABicycleTrip_11.mp3
+53
+57.5
+Yes I am going with a friend of mine He likes bicycle trips
+@@@
+37
+A Bicycle Trip
+12
+Resources/Audio/37_ABicycleTrip_12.mp3
+57.5
+61
+I wish I could go on a bicycle trip too
+@@@
+37
+A Bicycle Trip
+13
+Resources/Audio/37_ABicycleTrip_13.mp3
+61.4
+65
+Well don't get too many flat tires
+@@@
+38
+Driving Down South
+0
+Resources/Audio/38_DrivingDownSouth_0.mp3
+4
+9
+Isn't it great that there aren't any classes on Monday
+@@@
+38
+Driving Down South
+1
+Resources/Audio/38_DrivingDownSouth_1.mp3
+9
+11.5
+We have a three day weekend
+@@@
+38
+Driving Down South
+2
+Resources/Audio/38_DrivingDownSouth_2.mp3
+11.5
+15
+That's right Do you have any special plans
+@@@
+38
+Driving Down South
+3
+Resources/Audio/38_DrivingDownSouth_3.mp3
+15
+19
+My family is taking a trip to Las Cruces
+@@@
+38
+Driving Down South
+4
+Resources/Audio/38_DrivingDownSouth_4.mp3
+19
+21.5
+I'm really looking forward to it
+@@@
+38
+Driving Down South
+5
+Resources/Audio/38_DrivingDownSouth_5.mp3
+21.4
+23.5
+Have you ever been there
+@@@
+38
+Driving Down South
+6
+Resources/Audio/38_DrivingDownSouth_6.mp3
+23.5
+27
+No but I've heard about it Is it nice
+@@@
+38
+Driving Down South
+7
+Resources/Audio/38_DrivingDownSouth_7.mp3
+27
+33.7
+Yes there are so many things to see The city is famous for its nuts
+@@@
+38
+Driving Down South
+8
+Resources/Audio/38_DrivingDownSouth_8.mp3
+33.7
+35.3
+What kind of nuts
+@@@
+38
+Driving Down South
+9
+Resources/Audio/38_DrivingDownSouth_9.mp3
+35.3
+41
+Pecans There are many pecan trees growing in and around the city
+@@@
+38
+Driving Down South
+10
+Resources/Audio/38_DrivingDownSouth_10.mp3
+41
+46.2
+I like pecans How far away is Las Cruces from here
+@@@
+38
+Driving Down South
+11
+Resources/Audio/38_DrivingDownSouth_11.mp3
+46.2
+53
+It only takes about four hours by car if you use the freeway and drive directly south
+@@@
+38
+Driving Down South
+12
+Resources/Audio/38_DrivingDownSouth_12.mp3
+53
+57.5
+That certainly makes for an easy trip When are you leaving
+@@@
+38
+Driving Down South
+13
+Resources/Audio/38_DrivingDownSouth_13.mp3
+57.6
+62.8
+We're going on Saturday morning We'll be back on Monday evening
+@@@
+38
+Driving Down South
+14
+Resources/Audio/38_DrivingDownSouth_14.mp3
+62.8
+67
+Have a nice time Bring me some pecans
+@@@
+39
+The Travel Agent
+0
+Resources/Audio/39_TheTravelAgent_0.mp3
+4
+7.5
+I want to go on a trip to China
+@@@
+39
+The Travel Agent
+1
+Resources/Audio/39_TheTravelAgent_1.mp3
+7.5
+9.2
+How long do you want to stay
+@@@
+39
+The Travel Agent
+2
+Resources/Audio/39_TheTravelAgent_2.mp3
+9.2
+11
+Four or five days
+@@@
+39
+The Travel Agent
+3
+Resources/Audio/39_TheTravelAgent_3.mp3
+11.2
+16.6
+We have a very good package tour that is for four days and three nights
+@@@
+39
+The Travel Agent
+4
+Resources/Audio/39_TheTravelAgent_4.mp3
+16.6
+19.7
+OK What can you tell me about it
+@@@
+39
+The Travel Agent
+5
+Resources/Audio/39_TheTravelAgent_5.mp3
+19.7
+23
+Well you'll fly directly to Beijing
+@@@
+39
+The Travel Agent
+6
+Resources/Audio/39_TheTravelAgent_6.mp3
+23
+28
+Your tour guide will meet you at the airport and take you to your hotel
+@@@
+39
+The Travel Agent
+7
+Resources/Audio/39_TheTravelAgent_7.mp3
+28.5
+33
+Over the four days you will do a lot of sightseeing
+@@@
+39
+The Travel Agent
+8
+Resources/Audio/39_TheTravelAgent_8.mp3
+32.5
+41
+You will see many famous landmarks like the Summer Palace the Forbidden City and the Great Wall of China
+@@@
+39
+The Travel Agent
+9
+Resources/Audio/39_TheTravelAgent_9.mp3
+41
+48
+That sounds great What sort of transport will we use to get from one place to another
+@@@
+39
+The Travel Agent
+10
+Resources/Audio/39_TheTravelAgent_10.mp3
+48
+50.5
+You will take a bus with your tour group
+@@@
+39
+The Travel Agent
+11
+Resources/Audio/39_TheTravelAgent_11.mp3
+50.5
+54.2
+OK Can I book this package tour now
+@@@
+39
+The Travel Agent
+12
+Resources/Audio/39_TheTravelAgent_12.mp3
+54.5
+59
+There will be five of us going on this trip Sure
+@@@
+40
+Taking The Train
+0
+Resources/Audio/40_TakingTheTrain_0.mp3
+4
+10
+You're so lucky Marian You're leaving for Hawaii in five hours
+@@@
+40
+Taking The Train
+1
+Resources/Audio/40_TakingTheTrain_1.mp3
+10
+16.2
+I never travel because I hate flying in airplanes I don't like buses either
+@@@
+40
+Taking The Train
+2
+Resources/Audio/40_TakingTheTrain_2.mp3
+16.2
+21
+That doesn't matter Dean There are other ways to get around
+@@@
+40
+Taking The Train
+3
+Resources/Audio/40_TakingTheTrain_3.mp3
+21
+23.5
+You should take the train somewhere
+@@@
+40
+Taking The Train
+4
+Resources/Audio/40_TakingTheTrain_4.mp3
+23.5
+28.5
+That's true It's been a long time since I last traveled
+@@@
+40
+Taking The Train
+5
+Resources/Audio/40_TakingTheTrain_5.mp3
+28.5
+31.6
+I've always wanted to take a long train trip
+@@@
+40
+Taking The Train
+6
+Resources/Audio/40_TakingTheTrain_6.mp3
+31.6
+38
+What's stopping you Go to the travel agent now and ask about train trips
+@@@
+40
+Taking The Train
+7
+Resources/Audio/40_TakingTheTrain_7.mp3
+38
+40.4
+What do you think the fares are like
+@@@
+40
+Taking The Train
+8
+Resources/Audio/40_TakingTheTrain_8.mp3
+40.4
+43.8
+I'm not sure what train fares are like now
+@@@
+40
+Taking The Train
+9
+Resources/Audio/40_TakingTheTrain_9.mp3
+43.8
+47
+I think it depends on your destination
+@@@
+40
+Taking The Train
+10
+Resources/Audio/40_TakingTheTrain_10.mp3
+47
+51
+That's a question you'll have to ask a travel agent
+@@@
+40
+Taking The Train
+11
+Resources/Audio/40_TakingTheTrain_11.mp3
+51
+54
+Can you suggest a good person to talk to
+@@@
+40
+Taking The Train
+12
+Resources/Audio/40_TakingTheTrain_12.mp3
+54
+60
+My travel agent is always very helpful Here is his phone number
+@@@
+40
+Taking The Train
+13
+Resources/Audio/40_TakingTheTrain_13.mp3
+60
+65
+Thanks I'll call him right now Where's the phone
+@@@
+41
+Go on a Cruise
+0
+Resources/Audio/41_GoonaCruise_0.mp3
+4
+7.5
+Are you sick of long road trips in a car
+@@@
+41
+Go on a Cruise
+1
+Resources/Audio/41_GoonaCruise_1.mp3
+7.5
+11.5
+Do you find long trips in an airplane boring
+@@@
+41
+Go on a Cruise
+2
+Resources/Audio/41_GoonaCruise_2.mp3
+11.5
+14
+Do you want to travel in a special way
+@@@
+41
+Go on a Cruise
+3
+Resources/Audio/41_GoonaCruise_3.mp3
+14.2
+20
+You should take a cruise to all the places you would like to see
+@@@
+41
+Go on a Cruise
+4
+Resources/Audio/41_GoonaCruise_4.mp3
+20
+26.2
+Go by cruise ship to the northeast part of the US Go late in the year
+@@@
+41
+Go on a Cruise
+5
+Resources/Audio/41_GoonaCruise_5.mp3
+26.2
+33
+Then you can enjoy the colors of the autumn leaves on the trees It is a beautiful sight
+@@@
+41
+Go on a Cruise
+6
+Resources/Audio/41_GoonaCruise_6.mp3
+33
+39.2
+Do you like to look at man made wonders Go on a cruise to the Panama Canal
+@@@
+41
+Go on a Cruise
+7
+Resources/Audio/41_GoonaCruise_7.mp3
+39.2
+44.4
+Do you want to see icebergs Do you want to look at seals and whales
+@@@
+41
+Go on a Cruise
+8
+Resources/Audio/41_GoonaCruise_8.mp3
+44.4
+46.5
+Go on a cruise to Alaska
+@@@
+41
+Go on a Cruise
+9
+Resources/Audio/41_GoonaCruise_9.mp3
+46.5
+52.5
+Wherever you may choose to go a cruise is a great way to travel
+@@@
+41
+Go on a Cruise
+10
+Resources/Audio/41_GoonaCruise_10.mp3
+52.5
+57.5
+Book a trip on a cruise ship today You will love it
+@@@

@@ -23,8 +23,8 @@ namespace ListenAndWrite
         protected void Page_Load(object sender, EventArgs e)
         {
             this.GetData();
-            ChartAction.showChart(MemberAction.GetLastDatePoint(this.member.Id, TestType.FullMode, 3), Chart1);
-            ChartAction.showChart(MemberAction.GetLastDatePoint(this.member.Id, TestType.NewMode, 3), Chart2);
+            ChartAction.showChart(MemberAction.GetLastDatePoint(this.member.Id, TestType.FullMode, 5), Chart1);
+            ChartAction.showChart(MemberAction.GetLastDatePoint(this.member.Id, TestType.NewMode, 5), Chart2);
         }
 
         public void GetData()

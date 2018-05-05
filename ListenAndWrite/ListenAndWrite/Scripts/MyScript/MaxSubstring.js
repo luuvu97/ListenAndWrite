@@ -22,7 +22,6 @@ MaxSubString.prototype.getMaxSubString = function (strInp) {
     //process
     for (var i = 1; i < this.script.length + 1; i++) {
         for (var j = 1; j < strInp.length + 1; j++) {
-            debugger
             if (this.script[i - 1].includes(strInp[j - 1])) {
                 M[i][j].val = M[i - 1][j - 1].val + 1;
                 for (var t = 1; t < this.script.length + 1; t++) {
@@ -54,6 +53,7 @@ MaxSubString.prototype.getMaxSubString = function (strInp) {
 
 MaxSubString.prototype.getResult = function () {
     var ret = "";
+    var prev = "";
     var rawScriptIndex = 0;
     for (var i = 0; i < this.script.length; i++) {
         
@@ -62,11 +62,25 @@ MaxSubString.prototype.getResult = function () {
             if (this.mark[i + 1]) {
                 ret += this.rawScript[rawScriptIndex] + " ";
                 ret += this.rawScript[rawScriptIndex + 1] + " ";
+                prev = this.rawScript[rawScriptIndex] + " ";
+                prev += this.rawScript[rawScriptIndex + 1] + " ";
+            }
+            else if (i == 0) {
+                ret += "... ";
             }
             rawScriptIndex += 2;
         } else {
             if (this.mark[i + 1]) {
                 ret += this.rawScript[rawScriptIndex] + " ";
+                prev = this.rawScript[rawScriptIndex] + " ";
+            } else {
+                if (i == 0) {
+                    ret += "... ";
+                }
+                if (prev != "") {
+                    prev = "";
+                    ret += " ... ";
+                }
             }
             rawScriptIndex += 1;
         }
