@@ -4,8 +4,8 @@ document.head.appendChild(imported);
 
 function LessonAction(level, rawScripts, audioPaths, controlElement, testType) {
     this.level = level;
-    this.rawScripts = rawScripts; //String[]
-    this.audioPaths = audioPaths;   //String[]
+    this.rawScripts = rawScripts; //String[] //mang cac rawScript
+    this.audioPaths = audioPaths;   //String[]  //mang cac audioPath
     this.currentPart = 0;
     this.pointTrack = new Array(this.rawScripts.length);
     this.isEnd = false;

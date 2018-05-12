@@ -225,6 +225,6 @@ C:\Users\luuvanvu\OneDrive\Nam 3\Ki 2\Dotnet\trunk\ListenAndWrite\ListenAndWrite
 C:\Users\luuvanvu\OneDrive\Nam 3\Ki 2\Dotnet\trunk\ListenAndWrite\ListenAndWrite\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\luuvanvu\OneDrive\Nam 3\Ki 2\Dotnet\trunk\ListenAndWrite\ListenAndWrite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\luuvanvu\OneDrive\Nam 3\Ki 2\Dotnet\trunk\ListenAndWrite\ListenAndWrite\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\luuvanvu\OneDrive\Nam 3\Ki 2\Dotnet\trunk\ListenAndWrite\ListenAndWrite\obj\Debug\ListenAndWrite.csprojResolveAssemblyReference.cache
 C:\Users\luuvanvu\OneDrive\Nam 3\Ki 2\Dotnet\trunk\ListenAndWrite\ListenAndWrite\obj\Debug\ListenAndWrite.dll
 C:\Users\luuvanvu\OneDrive\Nam 3\Ki 2\Dotnet\trunk\ListenAndWrite\ListenAndWrite\obj\Debug\ListenAndWrite.pdb
+C:\Users\luuvanvu\OneDrive\Nam 3\Ki 2\Dotnet\trunk\ListenAndWrite\ListenAndWrite\obj\Debug\ListenAndWrite.csprojResolveAssemblyReference.cache

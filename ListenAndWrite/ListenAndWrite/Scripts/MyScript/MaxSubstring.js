@@ -1,7 +1,7 @@
 ﻿function MaxSubString(rawScript, script) {
-    this.rawScript = rawScript;
-    this.script = script;
-    this.mark = new Array();
+    this.rawScript = rawScript; //da dua ve array of string
+    this.script = script;   //da dua ve array of (array of string)
+    this.mark = new Array();    //mang danh dau
     this.numOfCorrectText = 0;
 }
 

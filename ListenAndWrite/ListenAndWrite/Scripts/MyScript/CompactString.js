@@ -56,34 +56,37 @@ CompactString.prototype.getCompactWord = function (inp) {
 
 //input a string then the output is another string be compact from input string
 CompactString.prototype.compactString = function (inp) {
-    var script = inp;
-    var tmp = script;
-    var arr = script.split(" ");
-    if (arr.length == 1) {
-        return script;
+    var outStr = "";
+    inp = inp.toLowerCase();
+    return this.cs1(inp.split(" "), 0, outStr);
+}
+
+CompactString.prototype.cs1 = function(inpStr, index, outStr){
+    //inpStr array of string: input string after split
+    //index: current index
+    var str = "";
+    var offset = 1;
+    if(index < inpStr.length - 1){
+        str = inpStr[index] + " " + inpStr[index + 1];
+    }else if(index == inpStr.length - 1){
+        str = inpStr[index];
     }
-    var ret = "";
-    for (var i = 0; i < arr.length - 1; i++) {
-        var str = arr[i] + " " + arr[i + 1];
-        var tmp = this.getCompactWord(str);
-        if (tmp == str) {
-            ret += arr[i] + " ";
-            if (i == arr.length - 2) {
-                ret += arr[arr.length - 1];
-            }
-        } else {
-            ret += tmp;
-            if (i != arr.length - 2) {
-                ret += " ";
-            }
-            if (i == arr.length - 3) {
-                ret += arr[arr.length - 1];
-            }
-            i++;
-        }
+
+    var tmp = this.getCompactWord(str);
+    if (tmp.indexOf("'") != -1) {
+        //xau co the viet tat
+        offset = 2;
+        outStr += tmp;
+    } else {
+        outStr += inpStr[index];
     }
-    //console.log(ret);
-    return ret;
+
+    if ((index + offset) < inpStr.length) {//not end
+        outStr += " ";
+        return this.cs1(inpStr, index + offset, outStr);
+    } else {
+        return outStr;
+    }
 }
 
 
